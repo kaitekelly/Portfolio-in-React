@@ -18,8 +18,8 @@ class Portfolio extends Component {
             return <Home />;
         } else if (this.state.currentPage === "About") {
             return <About />;
-        } else {<Contact />;
-    }
+        } else {return <Contact />;
+        }
     };
 
     render() {
