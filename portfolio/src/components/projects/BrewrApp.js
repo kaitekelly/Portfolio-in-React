@@ -9,12 +9,13 @@ const Brewr = (props) => {
   return (
     <div>
       <Card>
-        <CardImg top width="100%" src={BrewrPic} alt="brewR App screenshot" />
+        <CardImg top width="100%" src={props.projects[1].img} alt="brewR App screenshot" />
         <CardBody>
-          <CardTitle>brewR App</CardTitle>
+          <CardTitle>{props.projects[1].title}</CardTitle> 
           <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
+          <CardText>{props.projects[1].text}</CardText>
+          <Button>Button{props.projects[1].siteurl}</Button>
+          <Button>Button{props.projects[1].repourl}</Button>
         </CardBody>
       </Card>
     </div>
@@ -22,6 +23,28 @@ const Brewr = (props) => {
 };
 
 export default Brewr;
+img={projects[0].img}
+title={projects[0].title}
+text={projects[0].text}
+siteurl={projects[0].siteurl}
+repourl={projects[0].repourl}
+
+{/* <FriendCard
+name={friends[1].name}
+image={friends[1].image}
+occupation={friends[1].occupation}
+location={friends[1].location}
+/> */}
+
+
+
+"id": 11,
+"img": "",
+"title": "",
+"subtitle": "",
+"text": "",
+"siteurl": "",
+"repourl": "",
 
 
 // bootstrap doc button drop down right for links to deployed site and repo
