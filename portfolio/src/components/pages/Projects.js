@@ -7,4 +7,4 @@ const Projects = () => (
     </div>
 )
 
-export default Projects;
+export default Project;

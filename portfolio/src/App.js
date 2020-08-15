@@ -10,6 +10,8 @@ import { BrowserRouter as Router,
 import About from "../src/components/pages/About";
 import Resume from "../src/components/pages/Resume";
 import Contact from "../src/components/pages/Contact";
+import Projects from "../src/components/pages/Projects";
+// import Home from "../src/components/pages/Home";
 // import Header from './components/Header';
 
 // import PortfolioContainer from "./components/PortfolioContainer";
@@ -27,8 +29,12 @@ export default function App() {
               <nav>
                   <ul>
                       <li>
-                          <Link to="/">Home</Link>
+                          <Link to="/home">Home</Link>
                       </li>
+                      <li>
+                          <Link to="/projects">Projects</Link>
+                      </li>
+
                       <li>
                           <Link to="/about">About</Link>
                       </li>
@@ -51,14 +57,13 @@ export default function App() {
                   <Route path="/pages/contact">
                       <Contact />
                   </Route>
+                  <Route path="/pages/projects">
+                      <Projects />
+                  </Route>
               </Switch>
           </div>
       </Router>
-      
-    //   <div>
-    //   <Header></Header> 
-    //   </div>
-    )
+    );
 }
 
 
