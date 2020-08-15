@@ -23,25 +23,25 @@ const Example = (props) => {
   );
 };
 
-<CardBtn
+{/* <CardBtn
 style={{ opacity: 1 }}
 data-value="next"
-/>
+/> */}
 
-<Wrapper></Wrapper>
+{/* <Wrapper></Wrapper>
 <Title>Friends List</Title>
 <FriendCard
   name={friends[0].name}
   image={friends[0].image}
   occupation={friends[0].occupation}
   location={friends[0].location}
-/>
+/> */}
 
 export default Example;
 
 
 // bootstrap doc button drop down right for links to deployed site and repo
-<ButtonDropdown direction="right" isOpen={this.state.btnDropright} toggle={() => { this.setState({ btnDropright: !this.state.btnDropright }); }}>
+{/* <ButtonDropdown direction="right" isOpen={this.state.btnDropright} toggle={() => { this.setState({ btnDropright: !this.state.btnDropright }); }}>
   <DropdownToggle caret>
     Dropright
   </DropdownToggle>
@@ -49,4 +49,4 @@ export default Example;
     <DropdownItem>Another Action</DropdownItem>
     <DropdownItem>Another Action</DropdownItem>
   </DropdownMenu>
-</ButtonDropdown>
+</ButtonDropdown> */}

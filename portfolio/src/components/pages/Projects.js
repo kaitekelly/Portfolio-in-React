@@ -80,13 +80,14 @@ const Projects = (props) => (
         repourl={projects[8].repourl}  
         />
 
-    </Wrapper>
+  
     
     
     <div className="projectCard">
         <h1>Projects</h1>
         <p> projects will go here </p>
     </div>
-)
+    </Wrapper>
+);
 
 export default Project;
