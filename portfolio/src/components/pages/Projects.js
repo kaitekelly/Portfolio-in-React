@@ -1,10 +1,10 @@
-import React from "react";
+import React, { App } from "react";
 
 import ProjectCard from "../ProjectCard.js";
 
 import projects from "../../projects.json";
 
-const Projects = () => (
+const Projects = (props) => (
     <Wrapper>
         <Title>Coding Projects</Title>
         {/* //weather dashboard */}
@@ -41,43 +41,43 @@ const Projects = () => (
         />
         {/* Burger Lust Wish List */}
         <ProjectCard 
-        img={projects[3].img}
-        title={projects[3].title}
-        text={projects[3].text}
-        siteurl={projects[3].siteurl}
-        repourl={projects[3].repourl}  
+        img={projects[4].img}
+        title={projects[4].title}
+        text={projects[4].text}
+        siteurl={projects[4].siteurl}
+        repourl={projects[4].repourl}  
         />
         {/* Express Note Taker */}
         <ProjectCard 
-        img={projects[3].img}
-        title={projects[3].title}
-        text={projects[3].text}
-        siteurl={projects[3].siteurl}
-        repourl={projects[3].repourl}  
+        img={projects[5].img}
+        title={projects[5].title}
+        text={projects[5].text}
+        siteurl={projects[5].siteurl}
+        repourl={projects[5].repourl}  
         />
         {/* Employee Database Command Line Application */}
         <ProjectCard 
-        img={projects[3].img}
-        title={projects[3].title}
-        text={projects[3].text}
-        siteurl={projects[3].siteurl}
-        repourl={projects[3].repourl}  
+        img={projects[6].img}
+        title={projects[6].title}
+        text={projects[6].text}
+        siteurl={projects[6].siteurl}
+        repourl={projects[6].repourl}  
         />
         {/* Random Number Generator */}
         <ProjectCard 
-        img={projects[3].img}
-        title={projects[3].title}
-        text={projects[3].text}
-        siteurl={projects[3].siteurl}
-        repourl={projects[3].repourl}  
+        img={projects[7].img}
+        title={projects[7].title}
+        text={projects[7].text}
+        siteurl={projects[7].siteurl}
+        repourl={projects[7].repourl}  
         />
         {/* Readme Generator */}
         <ProjectCard 
-        img={projects[3].img}
-        title={projects[3].title}
-        text={projects[3].text}
-        siteurl={projects[3].siteurl}
-        repourl={projects[3].repourl}  
+        img={projects[8].img}
+        title={projects[8].title}
+        text={projects[8].text}
+        siteurl={projects[8].siteurl}
+        repourl={projects[8].repourl}  
         />
 
     </Wrapper>
