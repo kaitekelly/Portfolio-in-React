@@ -1,12 +1,13 @@
-import React, { App } from "react";
-
-import ProjectCard from "../ProjectCard.js";
-
+import React from "react";
+// import ProjectCard from "../ProjectCard.js";
+import Wrapper from "../Wrapper";
+// import Title from "../../components/Title";
+import ProjectCard from "../../components/projects/ProjectCard";
 import projects from "../../projects.json";
 
 const Projects = (props) => (
     <Wrapper>
-        <Title>Coding Projects</Title>
+        {/* <Title>Coding Projects</Title> */}
         {/* //weather dashboard */}
         <ProjectCard
         img={projects[0].img}
@@ -90,4 +91,4 @@ const Projects = (props) => (
     </Wrapper>
 );
 
-export default Project;
+export default Projects;

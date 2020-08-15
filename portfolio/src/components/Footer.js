@@ -6,7 +6,6 @@ const Footer = () => {
         copyright Kaite Kelly { new Date().getFullYear() }
     </footer>
     )
-
 }
 
 export default Footer;
