@@ -8,8 +8,9 @@ import { BrowserRouter as Router,
      } from "react-router-dom";
 
 import About from "../src/components/pages/About";
-import Resume from "../src/components/Resume";
+import Resume from "../src/components/pages/Resume";
 import Contact from "../src/components/pages/Contact";
+// import Header from './components/Header';
 
 // import PortfolioContainer from "./components/PortfolioContainer";
 // import NavTabs from './components/NavTabs';
@@ -19,6 +20,7 @@ import Contact from "../src/components/pages/Contact";
 
 
 export default function App() {
+
     return (
       <Router>
           <div>
@@ -43,16 +45,19 @@ export default function App() {
                   <Route path="/pages/about">
                       <About/>
                   </Route>
-                  <Route path="/pages/resumeresume">
+                  <Route path="/pages/resume">
                       <Resume />
                   </Route>
-                  <Route path="/pages/contactcontact">
+                  <Route path="/pages/contact">
                       <Contact />
                   </Route>
               </Switch>
           </div>
       </Router>
-
+      
+    //   <div>
+    //   <Header></Header> 
+    //   </div>
     )
 }
 

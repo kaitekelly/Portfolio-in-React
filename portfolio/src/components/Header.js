@@ -1,5 +1,6 @@
 import React from "react";
 import NavTabs from "../components/NavTabs";
+import "./style.css";
 
 const Header = () => {
    return(
