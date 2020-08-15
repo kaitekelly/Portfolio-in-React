@@ -46,18 +46,18 @@ export default function App() {
                       </li>
                   </ul>
               </nav>
-
+{/* // can delete stuff above switch if i use navtabs.js add links to navtabs.js*/}
               <Switch>
-                  <Route path="/pages/about">
+                  <Route path="/about">
                       <About/>
                   </Route>
-                  <Route path="/pages/resume">
+                  <Route path="/resume">
                       <Resume />
                   </Route>
-                  <Route path="/pages/contact">
+                  <Route path="/contact">
                       <Contact />
                   </Route>
-                  <Route path="/pages/projects">
+                  <Route path="/projects">
                       <Projects />
                   </Route>
               </Switch>
