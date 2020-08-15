@@ -7,10 +7,14 @@ import { BrowserRouter as Router,
         Link
      } from "react-router-dom";
 
-import PortfolioContainer from "./components/PortfolioContainer";
-import NavTabs from './components/NavTabs';
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import About from "../src/components/pages/About";
+import Resume from "../src/components/Resume";
+import Contact from "../src/components/pages/Contact";
+
+// import PortfolioContainer from "./components/PortfolioContainer";
+// import NavTabs from './components/NavTabs';
+// import Header from "./components/Header";
+// import Footer from "./components/Footer";
 
 
 
@@ -36,13 +40,13 @@ export default function App() {
               </nav>
 
               <Switch>
-                  <Route path="/about">
+                  <Route path="/pages/about">
                       <About/>
                   </Route>
-                  <Route path="/resume">
+                  <Route path="/pages/resumeresume">
                       <Resume />
                   </Route>
-                  <Route path="/contact">
+                  <Route path="/pages/contactcontact">
                       <Contact />
                   </Route>
               </Switch>
@@ -53,16 +57,7 @@ export default function App() {
 }
 
 
-export default App;
 
 
 
 
-{/* <Router>
-<div>
-    <NavTabs />
-    <Header />
-    <PortfolioContainer />
-    <Footer />
-</div>
-</Router> */}

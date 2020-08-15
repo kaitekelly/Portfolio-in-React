@@ -1,9 +1,13 @@
 import React from "react";
+import NavTabs from "../components/NavTabs";
 
 const Header = () => {
    return(
     <div>
-    this is the header
+    <h2>Kaite Kelly - Dev Portfolio</h2>
+    <NavTabs>
+
+    </NavTabs> 
     </div>
    ) 
 }
