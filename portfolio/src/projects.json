@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "",
+        "img": "./components/assets/weather-dashboard.jpg",
         "title": "Weather Dashboard",
         "subtitle": "",
         "text": "A weather dashboard to tell me the forecast for a city that I search.",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "img": "",
+        "img": "./components/assets/brewr-img.jpg",
         "title": "brewR Application",
         "subtitle": "",
         "text": "An application for craft beer lovers and breweries to search, favorite, and blog about craft breweries.",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "img": "",
+        "img": "./components/assets/find-next-gig.jpg",
         "title": "Find Next Gig Application",
         "subtitle": "",
         "text": "Find Next Gig an app to find out the next time a band or artist has a gig.",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "img": "",
+        "img": "./components/assets/workday-scheduler.jpg",
         "title": "Workday Scheduler",
         "subtitle": "",
         "text": "A work day scheduler and calendar application.",
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "img": "",
+        "img": "./components/assets/burger-wish-image.jpg",
         "title": "Burger Lust Wish List",
         "subtitle": "",
         "text": "An application where user can enter and delete burgers they would like to eat to and from a database.",
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "img": "",
+        "img": "./components/assets/express-note-taker-image.jpg",
         "title": "Express Note Taker",
         "subtitle": "",
         "text": "A personal note taker created with Node and Express.",
@@ -61,7 +61,7 @@
     },
     {
         "id": 7,
-        "img": "",
+        "img": "./components/assets/team-roster-image.jpg",
         "title": "Team Roster",
         "subtitle": "",
         "text": "A content management system to store employee information.",
@@ -71,7 +71,7 @@
     },
     {
         "id": 8,
-        "img": "",
+        "img": "./components/assets/employee-database.jpg",
         "title": "Employee Database Command Line Application",
         "subtitle": "",
         "text": "A command line interface to generate a team roster with individual employee information for team management.",
@@ -81,7 +81,7 @@
     },
     {
         "id": 9,
-        "img": "",
+        "img": "./components/assets/password-generator-color.jpg",
         "title": "Random Number Generator",
         "subtitle": "",
         "text": "A password generator using random numbers and special characters.",
@@ -91,7 +91,7 @@
     },
     {
         "id": 10,
-        "img": "",
+        "img": "./components/assets/readme-generator.jpg",
         "title": "README Generator",
         "subtitle": "",
         "text": "A command line README generator for quick, efficient project README's.",
