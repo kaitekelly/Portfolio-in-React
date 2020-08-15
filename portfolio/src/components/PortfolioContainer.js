@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import NavTabs from "./NavTabs";
+// import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Project from "./Project";
-import Header from "./Header";
-import Footer from "./Footer";
+// import Project from "./Project";
+// import Header from "./Header";
+// import Footer from "./Footer";
 
 class Portfolio extends Component {
     state = {
@@ -26,7 +26,9 @@ class Portfolio extends Component {
     };
 
     render() {
-      return 
+      return (
+          null
+      )
     }
 
 }
