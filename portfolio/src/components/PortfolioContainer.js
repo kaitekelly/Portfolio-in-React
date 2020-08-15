@@ -9,7 +9,11 @@ import Contact from "./pages/Contact";
 
 class Portfolio extends Component {
     state = {
-        currentPage: "Home"
+        currentPage: "/",
+        AboutPage: "about",
+        ResumePage: "resume",
+        
+
     };
 
     handlePageChange = page => {
