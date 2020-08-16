@@ -6,7 +6,9 @@ import React, {
        CardSubtitle, 
        CardText, 
        Button
-}
+} from "react";
+import Brewr from "../../assets/brewr-img.jpg";
+
 
 function CardProject() {
     return(
