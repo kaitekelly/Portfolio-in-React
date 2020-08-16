@@ -18,6 +18,7 @@ import Projects from "../src/components/pages/Projects";
 // import NavTabs from './components/NavTabs';
 // import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Gallery from './components/pages/Gallery';
 
 
 
@@ -34,7 +35,6 @@ export default function App() {
                       <li>
                           <Link to="/projects">Projects</Link>
                       </li>
-
                       <li>
                           <Link to="/about">About</Link>
                       </li>
@@ -43,6 +43,9 @@ export default function App() {
                       </li>
                       <li>
                           <Link to="/contact">Contact</Link>
+                      </li>
+                      <li>
+                          <Link to="/gallery">Gallery</Link>
                       </li>
                   </ul>
               </nav>
@@ -59,6 +62,9 @@ export default function App() {
                   </Route>
                   <Route path="/projects">
                       <Projects />
+                  </Route>
+                  <Route path="/gallery">
+                    <Gallery />
                   </Route>
               </Switch>
               <Footer />

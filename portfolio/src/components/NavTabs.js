@@ -4,35 +4,19 @@ function NavTabs(props) {
     return (
         <ul className="nav navtabs">
             <li className="nav-item">
-  
                 <Link to="/" >Home </Link>
-           
             </li>
             <li className="nav-item">
-                <a
-                  href="#about"
-                  // onClick={() => props.handlePageChange("About")}
-                  className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
-                  >
-                  About
-                </a>
+                <Link to="/about">About</Link>
             </li>
             <li className="nav-item">
-                <a
-                  href="#contact"
-                  onClick={() => props.handlePageChange("Contact")}
-                  className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
-                >
-                Contact
-                </a>
+                <Link to="projects">Projects</Link>
             </li>
             <li className="nav-item">
-                <a
-                  href="#resume"
-                  onClick={() => props.handlePageChange("Resume" ? "nav-link active" : "nav-link")}
-                >
-                    Resume
-                </a>
+                <Link to="/resume">Resume</Link>
+            </li>
+            <li className="nav-item">
+                <Link to="/contact">Contact</Link>
             </li>
         </ul>
     )

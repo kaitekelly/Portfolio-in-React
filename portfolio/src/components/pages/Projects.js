@@ -2,13 +2,16 @@ import React from "react";
 // import ProjectCard from "../ProjectCard.js";
 import Wrapper from "../Wrapper";
 // import Title from "../../components/Title";
-import ProjectCard from "../../components/projects/ProjectCard";
-import projects from "../../projects.json";
+// import ProjectCard from "../../components/projects/ProjectCard";
+import Card from "../pages/Card";
+// import projects from "../projects/ProjectsArray";
 
-const Projects = (props) => (
+function Projects() {
+    
     <Wrapper>
-        {/* <Title>Coding Projects</Title> */}
-        {/* //weather dashboard */}
+      <Card></Card>
+        {/* <Title>Coding Projects</Title>
+        console.log(project);
         {projects.map(project => 
             <ProjectCard
         img={project.img}
@@ -17,16 +20,16 @@ const Projects = (props) => (
         siteurl={project.siteurl}
         repourl={project.repourl}
         />
-        )}
+        )} */}
 {/* 
         {/* brewr app */}
-        <ProjectCard 
+        {/* <ProjectCard 
         img={projects[1].img}
         title={projects[1].title}
         text={projects[1].text}
         siteurl={projects[1].siteurl}
         repourl={projects[1].repourl}  
-        />
+        /> */}
         {/* find next gig app */}
         {/* <ProjectCard 
         img={projects[2].img}
@@ -92,6 +95,6 @@ const Projects = (props) => (
         <p> projects will go here </p>
     </div>
     </Wrapper>
-);
+};
 
 export default Projects;

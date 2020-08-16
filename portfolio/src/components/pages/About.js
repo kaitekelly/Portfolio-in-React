@@ -1,8 +1,8 @@
 import React from "react";  
-import { render } from "react-dom";
+// import { render } from "react-dom";
 
 function About() {
-    render() 
+    
         return (
             <div>
               <h2>About me...</h2>

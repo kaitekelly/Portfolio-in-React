@@ -1,4 +1,4 @@
-[
+const projects = [
     {
         "id": 1,
         "img": "./components/assets/weather-dashboard.jpg",
@@ -111,3 +111,5 @@
     }
 ]
 
+
+export default projects;
