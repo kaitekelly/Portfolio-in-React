@@ -36,8 +36,8 @@ function Projects() {
       <CardText>
       An application for craft beer lovers and breweries to search, favorite, and blog about craft breweries.
       </CardText>
-      <Button href="https://brewrs.herokuapp.com/">Site</Button>
-      <Button href="https://github.com/JMantis0/brewR">Repo</Button>
+      <Button href="https://brewrs.herokuapp.com/" target="_blank">Site</Button>
+      <Button href="https://github.com/JMantis0/brewR" target="_blank">Repo</Button>
      </CardBody>
     </Card>
     <Card>
@@ -48,8 +48,8 @@ function Projects() {
       <CardText>
       A weather dashboard to tell me the forecast for a city that I search.
       </CardText>
-      <Button href="https://kaitekelly.github.io/WeatherDashboard/">Site</Button>
-      <Button href="https://github.com/kaitekelly/WeatherDashboard">Repo</Button>
+      <Button href="https://kaitekelly.github.io/WeatherDashboard/" target="_blank">Site</Button>
+      <Button href="https://github.com/kaitekelly/WeatherDashboard" target="_blank">Repo</Button>
      </CardBody>
     </Card>
     <Card>
@@ -60,8 +60,8 @@ function Projects() {
       <CardText>
       Find Next Gig an app to find out the next time a band or artist has a gig.
       </CardText>
-      <Button href="https://merkraith.github.io/Band-Tour-Manager/">Site</Button>
-      <Button href="https://github.com/Merkraith/Band-Tour-Manager">Repo</Button>
+      <Button href="https://merkraith.github.io/Band-Tour-Manager/" target="_blank">Site</Button>
+      <Button href="https://github.com/Merkraith/Band-Tour-Manager" target="_blank">Repo</Button>
      </CardBody>
     </Card>
     <Card>
@@ -72,8 +72,8 @@ function Projects() {
       <CardText>
       A work day scheduler and calendar application.
       </CardText>
-      <Button href="https://kaitekelly.github.io/WorkDayScheduler/">Site</Button>
-      <Button href="https://github.com/kaitekelly/WorkDayScheduler">Repo</Button>
+      <Button href="https://kaitekelly.github.io/WorkDayScheduler/" target="_blank">Site</Button>
+      <Button href="https://github.com/kaitekelly/WorkDayScheduler" target="_blank">Repo</Button>
      </CardBody>
     </Card>
     <Card>
@@ -84,8 +84,8 @@ function Projects() {
       <CardText>
       An application where user can enter and delete burgers they would like to eat to and from a database.
       </CardText>
-      <Button href="https://nameless-fortress-05511.herokuapp.com/">Site</Button>
-      <Button href="https://github.com/kaitekelly/Burger-Wish">Repo</Button>
+      <Button href="https://nameless-fortress-05511.herokuapp.com/" target="_blank">Site</Button>
+      <Button href="https://github.com/kaitekelly/Burger-Wish" target="_blank">Repo</Button>
      </CardBody>
     </Card>
     <Card>
@@ -96,8 +96,8 @@ function Projects() {
       <CardText>
       A personal note taker created with Node and Express.
       </CardText>
-      <Button href="https://expresscilnotetaker.herokuapp.com/">Site</Button>
-      <Button href="https://github.com/kaitekelly/Express-Note-Taker">Repo</Button>
+      <Button href="https://expresscilnotetaker.herokuapp.com/" target="_blank">Site</Button>
+      <Button href="https://github.com/kaitekelly/Express-Note-Taker" target="_blank">Repo</Button>
      </CardBody>
     </Card>
     <Card>
@@ -108,8 +108,8 @@ function Projects() {
       <CardText>
       A personal note taker created with Node and Express.
       </CardText>
-      <Button href="https://expresscilnotetaker.herokuapp.com/">Site</Button>
-      <Button href="https://github.com/kaitekelly/Express-Note-Taker">Repo</Button>
+      <Button href="https://expresscilnotetaker.herokuapp.com/" target="_blank">Site</Button>
+      <Button href="https://github.com/kaitekelly/Express-Note-Taker" target="_blank">Repo</Button>
      </CardBody>
     </Card>
     <Card>
@@ -120,8 +120,8 @@ function Projects() {
       <CardText>
       A command line interface to generate a team roster with individual employee information for team management.
       </CardText>
-      <Button href="https://github.com/kaitekelly/CMS-Employee-Database">Site</Button>
-      <Button href="https://github.com/kaitekelly/CMS-Employee-Database">Repo</Button>
+      <Button href="https://github.com/kaitekelly/CMS-Employee-Database" target="_blank">Site</Button>
+      <Button href="https://github.com/kaitekelly/CMS-Employee-Database" target="_blank">Repo</Button>
      </CardBody>
     </Card>
     <Card>
@@ -132,8 +132,8 @@ function Projects() {
       <CardText>
       A password generator using random numbers and special characters.
       </CardText>
-      <Button href="https://kaitekelly.github.io/SuperEncryptedPassword/">Site</Button>
-      <Button href="https://github.com/kaitekelly/SuperEncryptedPassword">Repo</Button>
+      <Button href="https://kaitekelly.github.io/SuperEncryptedPassword/" target="_blank">Site</Button>
+      <Button href="https://github.com/kaitekelly/SuperEncryptedPassword" target="_blank">Repo</Button>
      </CardBody>
     </Card>
     <Card>
@@ -144,8 +144,8 @@ function Projects() {
       <CardText>
       A command line README generator for quick, efficient project README's.
       </CardText>
-      <Button href="https://kaitekelly.github.io/Efficient-README-Generator/">Site</Button>
-      <Button href="https://github.com/kaitekelly/Efficient-README-Generator">Repo</Button>
+      <Button href="https://kaitekelly.github.io/Efficient-README-Generator/" target="_blank">Site</Button>
+      <Button href="https://github.com/kaitekelly/Efficient-README-Generator" target="_blank">Repo</Button>
      </CardBody>
     </Card>
     
