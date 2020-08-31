@@ -1,4 +1,7 @@
 import React from "react";
+import Footer from "react";
+
+
 
 const Footer = () => {
     return (
@@ -9,3 +12,12 @@ const Footer = () => {
 }
 
 export default Footer;
+
+// style={{
+//     backgroundImage: `url(${ImageBackground})`,
+//     backgroundPosition: 'center',
+//     backgroundSize: 'cover',
+//     backgroundRepeat: 'no-repeat',
+//     width: "100%",
+//     height: "1000px",
+// }}
