@@ -7,10 +7,10 @@ import {
     CardSubtitle,
     CardText,
     Button,
+    Container, 
+    Row, 
+    Col
   } from "reactstrap";
-  // import Wrapper from "../Wrapper";
-  // import ProjectCard from "../../components/projects/ProjectCard";
-  // import projects from "../projects/ProjectsArray";
   import Brewr from "../../assets/brewr-img.jpg";
   import Weather from "../../assets/weather-dashboard.jpg";
   import Brgr from "../../assets/burger-wish-image.jpg";
@@ -23,12 +23,19 @@ import {
   import ReadGen from "../../assets/readme-generator.jpg";
   
 function Projects() {
+
+//   <Row>
+//   <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
+//   <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
+
+// </Row>
   
   return(
   <div>
     <h1>Here's the projects page</h1>
     <div>
-    <Card>
+    <Row>
+//   <Col xs="6" sm="4"><Card>
     <CardImg top width="100%" src={Brewr} alt="Card image cap" />
     <CardBody>
       <CardTitle>brewR App</CardTitle>
@@ -52,6 +59,8 @@ function Projects() {
       <Button href="https://github.com/kaitekelly/WeatherDashboard" target="_blank">Repo</Button>
      </CardBody>
     </Card>
+    </Col>
+    </Row>
     <Card>
     <CardImg top width="100%" src={Gig} alt="Card image cap" />
     <CardBody>

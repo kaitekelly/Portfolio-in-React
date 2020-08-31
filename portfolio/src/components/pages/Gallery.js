@@ -7,6 +7,8 @@ import {
   CardSubtitle,
   CardText,
   Button,
+  Col, 
+  Row
 } from "reactstrap";
 // import Wrapper from "../Wrapper";
 // import ProjectCard from "../../components/projects/ProjectCard";
@@ -28,8 +30,9 @@ function Gallery()  {
   
     return(
       <div>
-    
-      <Card>
+      <Row>
+        <Col xs="6" sm="4">
+        <Card>
       <CardImg top width="100%" src={Brewr} alt="Card image cap" />
       <CardBody>
         <CardTitle>brewR App</CardTitle>
@@ -41,7 +44,10 @@ function Gallery()  {
         <Button href="https://github.com/JMantis0/brewR">Repo</Button>
        </CardBody>
       </Card>
-      <Card>
+        </Col>
+
+        <Col xs="6" sm="4">
+        <Card>
       <CardImg top width="100%" src={Weather} alt="Card image cap" />
       <CardBody>
         <CardTitle>Weather Dashboard</CardTitle>
@@ -53,7 +59,10 @@ function Gallery()  {
         <Button href="https://github.com/kaitekelly/WeatherDashboard">Repo</Button>
        </CardBody>
       </Card>
-      <Card>
+        </Col>
+
+        <Col sm="4">
+        <Card>
       <CardImg top width="100%" src={Gig} alt="Card image cap" />
       <CardBody>
         <CardTitle>Find Next Gig App</CardTitle>
@@ -65,7 +74,12 @@ function Gallery()  {
         <Button href="https://github.com/Merkraith/Band-Tour-Manager">Repo</Button>
        </CardBody>
       </Card>
-      <Card>
+        </Col>
+      </Row>
+      <br></br>
+      <Row>
+        <Col xs="6" sm="4">
+        <Card>
       <CardImg top width="100%" src={Work} alt="Card image cap" />
       <CardBody>
         <CardTitle>Workday Scheduler</CardTitle>
@@ -77,7 +91,10 @@ function Gallery()  {
         <Button href="https://github.com/kaitekelly/WorkDayScheduler">Repo</Button>
        </CardBody>
       </Card>
-      <Card>
+        </Col>
+
+        <Col xs="6" sm="4">
+        <Card>
       <CardImg top width="100%" src={Brgr} alt="Card image cap" />
       <CardBody>
         <CardTitle>Burger Lust Wish List</CardTitle>
@@ -89,7 +106,9 @@ function Gallery()  {
         <Button href="https://github.com/kaitekelly/Burger-Wish">Repo</Button>
        </CardBody>
       </Card>
-      <Card>
+        </Col>
+        <Col sm="4">
+        <Card>
       <CardImg top width="100%" src={Express} alt="Card image cap" />
       <CardBody>
         <CardTitle>Express Note Taker</CardTitle>
@@ -101,7 +120,12 @@ function Gallery()  {
         <Button href="https://github.com/kaitekelly/Express-Note-Taker">Repo</Button>
        </CardBody>
       </Card>
-      <Card>
+        </Col>
+      </Row>
+      <br></br>
+      <Row>
+        <Col xs="6" sm="4">
+        <Card>
       <CardImg top width="100%" src={Team} alt="Card image cap" />
       <CardBody>
         <CardTitle>Team Roster</CardTitle>
@@ -113,7 +137,9 @@ function Gallery()  {
         <Button href="https://github.com/kaitekelly/Express-Note-Taker">Repo</Button>
        </CardBody>
       </Card>
-      <Card>
+        </Col>
+        <Col xs="6" sm="4">
+        <Card>
       <CardImg top width="100%" src={EmpDb} alt="Card image cap" />
       <CardBody>
         <CardTitle>Employee Database Command Line Application</CardTitle>
@@ -125,7 +151,9 @@ function Gallery()  {
         <Button href="https://github.com/kaitekelly/CMS-Employee-Database">Repo</Button>
        </CardBody>
       </Card>
-      <Card>
+        </Col>
+        <Col sm="4">
+        <Card>
       <CardImg top width="100%" src={Random} alt="Card image cap" />
       <CardBody>
         <CardTitle>Random Number Generator</CardTitle>
@@ -137,7 +165,12 @@ function Gallery()  {
         <Button href="https://github.com/kaitekelly/SuperEncryptedPassword">Repo</Button>
        </CardBody>
       </Card>
-      <Card>
+        </Col>
+      </Row>
+      <br></br>
+      <Row>
+        <Col xs="6" sm="4">
+        <Card>
       <CardImg top width="100%" src={ReadGen} alt="Card image cap" />
       <CardBody>
         <CardTitle>README Generator</CardTitle>
@@ -149,6 +182,21 @@ function Gallery()  {
         <Button href="https://github.com/kaitekelly/Efficient-README-Generator">Repo</Button>
        </CardBody>
       </Card>
+        </Col>
+        <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
+        <Col sm="4">.col-sm-4</Col>
+      </Row>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
       
       </div>
     )

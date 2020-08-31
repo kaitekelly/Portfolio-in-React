@@ -16,17 +16,3 @@ function About() {
     
 
 export default About;
-
-
-
-
-// const About = () => (
-//     <div>
-//         <h1>
-//             About Me
-//         </h1>
-//         <p>
-                
-//         </p>
-//     </div>
-// );
