@@ -36,7 +36,7 @@ function Gallery()  {
       <CardImg top width="100%" src={Brewr} alt="Card image cap" />
       <CardBody>
         <CardTitle>brewR App</CardTitle>
-        <CardSubtitle>Card subtitle</CardSubtitle>
+        <br></br>
         <CardText>
         An application for craft beer lovers and breweries to search, favorite, and blog about craft breweries.
         </CardText>
@@ -51,7 +51,7 @@ function Gallery()  {
       <CardImg top width="100%" src={Weather} alt="Card image cap" />
       <CardBody>
         <CardTitle>Weather Dashboard</CardTitle>
-        <CardSubtitle>Card subtitle</CardSubtitle>
+        <br></br>
         <CardText>
         A weather dashboard to tell me the forecast for a city that I search.
         </CardText>
@@ -66,7 +66,7 @@ function Gallery()  {
       <CardImg top width="100%" src={Gig} alt="Card image cap" />
       <CardBody>
         <CardTitle>Find Next Gig App</CardTitle>
-        <CardSubtitle>Card subtitle</CardSubtitle>
+        <br></br>
         <CardText>
         Find Next Gig an app to find out the next time a band or artist has a gig.
         </CardText>
@@ -186,24 +186,8 @@ function Gallery()  {
         <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
         <Col sm="4">.col-sm-4</Col>
       </Row>
-    
-
-      
-      
-      
-      
-      
-      
-      
-      
-
-      
       </div>
     )
-
-  
-  
-  
 };
 
 export default Gallery;

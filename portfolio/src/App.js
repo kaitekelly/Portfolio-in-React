@@ -15,7 +15,7 @@ import Projects from "../src/components/pages/Projects";
 // import Header from './components/Header';
 
 // import PortfolioContainer from "./components/PortfolioContainer";
-// import NavTabs from './components/NavTabs';
+import NavTabs from './components/NavTabs';
 // import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Gallery from './components/pages/Gallery';
@@ -27,29 +27,9 @@ export default function App() {
     return (
       <Router>
           <div>
-              <nav>
-                  <ul>
-                      <li>
-                          <Link to="/home">Home</Link>
-                      </li>
-                      <li>
-                          <Link to="/projects">Projects</Link>
-                      </li>
-                      <li>
-                          <Link to="/about">About</Link>
-                      </li>
-                      <li>
-                          <Link to="/resume">Resume</Link>
-                      </li>
-                      <li>
-                          <Link to="/contact">Contact</Link>
-                      </li>
-                      <li>
-                          <Link to="/gallery">Gallery</Link>
-                      </li>
-                  </ul>
-              </nav>
-{/* // can delete stuff above switch if i use navtabs.js add links to navtabs.js*/}
+        <div>
+            <NavTabs></NavTabs>
+        </div>
               <Switch>
                   <Route path="/about">
                       <About/>
