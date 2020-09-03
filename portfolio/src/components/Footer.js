@@ -1,9 +1,10 @@
 import React from "react";
-import Footer from "react";
+// import { Footer } from "react-strap";
 
 
 
-const Footer = () => {
+
+function Footer() {
     return (
         <footer className="footer">
         copyright Kaite Kelly { new Date().getFullYear() }
