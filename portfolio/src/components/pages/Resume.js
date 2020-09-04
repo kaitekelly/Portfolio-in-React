@@ -1,16 +1,26 @@
+
 import React from "react";
-// import Pdf from "../assets/Kathleen_Kelly_Dev_Resume.pdf";
+// import pdf from "./Kathleen_Murphy_Resume_Dev";
+
+
+/* This is required only if the project file is located 
+inside the app. Otherwise you can use the external link of the pdf file*/
 
 
 
-function Resume() {
-
-    return (
-        <div className="Pdf">
-          {/* <a href={Pdf} alt="Kaite Kelly's Resume">Download Resume</a> */}
-          <h1>Resume should display</h1>
-        </div>
-        );
+export default function Resume() {
+  return (
+    // <div className="Resume">
+    //   <h1>Resume should display here</h1>
+    //   <a href="https://drive.google.com/file/d/1gDFV01YSG3jDeLpCHccbBx1wzrPr6EkM/view?usp=sharing">View Resume</a>
+    //   <img></img>
+    // </div>
+    <div>
+    <img className="img-fluid" 
+     src={`${process.env.PUBLIC_URL}/assets/Kathleen_Kelly_Resume_Dev.pdf`} 
+     alt="logo"/>
+     </div>
+  );
 }
 
-export default Resume;
+//I just linked mine as a pdf on google docs. Then I created an anchor tag on my site that links to that pdf resume

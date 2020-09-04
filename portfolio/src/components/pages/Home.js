@@ -1,16 +1,10 @@
-import React from "react";
+// import React from "react";
+// import "./home.css"
 
-function Home() {
-  return <h2>Kaite Kelly's Dev Portfolio</h2>;
-}
+// // const Home = () => (
+// //   <div className='home'>
+// //   <img src={require("../../assets/")} id="home-image" alt="informatics"></img>
+// //   </div>
+// // );
 
-export default Home;
-
-
-
-// const Home = () => (
-//   <div>
-//       <h1>Kaite Kelly's Portfolio</h1>
-//   </div>
-
-// );
+// export default Home;

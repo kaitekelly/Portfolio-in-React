@@ -1,44 +1,54 @@
-import React, { Component } from "react";
-// import NavTabs from "./NavTabs";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Projects from "./Projects";
-// import Header from "./Header";
-// import Footer from "./Footer";
+import React from 'react';
+// import './App.css';
+// import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router,
+        Switch, 
+        Route
+     } from "react-router-dom";
 
-class Portfolio extends Component {
-    state = {
-        Hone: "/",
-        About: "about",
-        Resume: "resume",
-        Contact: "contact",
-        Resume: "resume",
-    };
+import About from "../components/pages/About";
+import Resume from "../components/pages/Resume";
+import Contact from "../components/pages/Contact";
+import Projects from "../components/pages/Projects";
+import NavTabs from "../components/NavTabs";
+import Footer from "./Footer";
+import Gallery from "../components/pages/Gallery";
+import Home from "../components/pages/Home";
 
-    handlePageChange = page => {
-        this.setState({ currentPage: page });
-    };
+// import PortfolioContainer from "../components/projects"
 
-    renderPage = () => {
-        if (this.state.currentPage === "/") {
-            return <Home />;
-        } else if (this.state.currentPage === "about") {
-            return <About />;
-        } else if (this.state.currentPage === "projects") {
-            return <Projects />;
-        } else if (this.state.currentPage === "resume") {
-            return <Resume />;
-        } else {return <Contact />;
-        }
-    };
 
-    render() {
-      return (
-          null
-      )
-    }
 
+export default function Portfolio() {
+
+    return (
+      <Router>
+          <div>
+        <div>
+            <NavTabs></NavTabs>
+        </div>
+              <Switch>
+              <Route path="/home">
+                      <Home/>
+                  </Route>
+                  <Route path="/about">
+                      <About/>
+                  </Route>
+                  <Route exact path="/Kathleen_Kelly_Resume_Dev">
+                      <Resume />
+                  </Route>
+                  <Route path="/contact">
+                      <Contact />
+                  </Route>
+                  <Route path="/projects">
+                      <Projects />
+                  </Route>
+                  <Route path="/gallery">
+                    <Gallery />
+                  </Route>
+              </Switch>
+              <Footer />
+          </div>
+      </Router>
+    );
 }
-
-export default Portfolio;
