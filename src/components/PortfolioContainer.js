@@ -23,11 +23,11 @@ export default function Portfolio() {
     return (
       <Router>
           <div>
-        <div>
+        {/* <div>
 
-        </div>
-              <Switch>
-              <Route exact path="/" component={Home}>
+        </div> */}
+              {/* <Switch> */}
+              <Route exact path="/Portfolio-in-React" component={Home}>
                       <Home/>
                   </Route>
                   <Route exact path="/about" component={About}>
@@ -45,7 +45,7 @@ export default function Portfolio() {
                   <Route path="/gallery">
                     <Gallery />
                   </Route>
-              </Switch>
+              {/* </Switch> */}
           </div>
       </Router>
     );
