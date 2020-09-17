@@ -40,10 +40,17 @@ code {
 }
 
 .footer{
-  position:absolute;
-  left:0;
-  bottom:0;
-  right:0;
+  /* margin-top: 1rem; */
+  padding: 1rem;
+  background-color: rgb(207, 212, 197);
+  color: rgb(23, 23, 56);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .container {

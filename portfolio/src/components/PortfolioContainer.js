@@ -11,7 +11,6 @@ import Resume from "../components/pages/Resume";
 import Contact from "../components/pages/Contact";
 import Projects from "../components/pages/Projects";
 import NavTabs from "../components/NavTabs";
-import Footer from "./Footer";
 import Gallery from "../components/pages/Gallery";
 import Home from "../components/pages/Home";
 
@@ -28,16 +27,16 @@ export default function Portfolio() {
             <NavTabs></NavTabs>
         </div>
               <Switch>
-              <Route path="/home">
+              <Route path="/Home">
                       <Home/>
                   </Route>
-                  <Route path="/about">
+                  <Route path="/About">
                       <About/>
                   </Route>
-                  <Route exact path="/Kathleen_Kelly_Resume_Dev">
+                  <Route path="/Kathleen_Kelly_Resume_Dev">
                       <Resume />
                   </Route>
-                  <Route path="/contact">
+                  <Route path="/Contact">
                       <Contact />
                   </Route>
                   <Route path="/projects">
@@ -47,7 +46,6 @@ export default function Portfolio() {
                     <Gallery />
                   </Route>
               </Switch>
-              <Footer />
           </div>
       </Router>
     );

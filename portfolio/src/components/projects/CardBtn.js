@@ -1,6 +1,6 @@
 import React from "react";
 // import userContext from "../../utils/userContext";
-// import "./style.css";
+import "../index.css";
 
 function CardBtn(props) {
     // const { handleBtnClick } = useContext(UserContext);

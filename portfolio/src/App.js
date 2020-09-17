@@ -11,7 +11,7 @@ import { BrowserRouter as Router,
 // import Contact from "../src/components/pages/Contact";
 // import Projects from "../src/components/pages/Projects";
 // import NavTabs from './components/NavTabs';
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 // import Gallery from './components/pages/Gallery';
 // import Home from "./components/pages/Home";
 import Portfolio from './components/PortfolioContainer';
@@ -20,7 +20,10 @@ import Portfolio from './components/PortfolioContainer';
 
 export default function App() {
     return (
+        <div>
         <Portfolio />
+        <Footer />
+        </div>
     )
       
 }
