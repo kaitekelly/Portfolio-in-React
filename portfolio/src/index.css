@@ -15,11 +15,17 @@ code {
 
 .nav {
   font-size: 14pt;
+  background-color: rgb(207, 212, 197);
 
 } 
 
 .about-me {
   background-color: #16697a;
+}
+
+.projects-container {
+margin: 10%;
+padding-inline-start: 15%;
 }
 
 

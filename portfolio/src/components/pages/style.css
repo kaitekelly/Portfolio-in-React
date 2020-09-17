@@ -1,6 +1,20 @@
 .bio {
     text-align: left;
+    /* padding-top: 60pt; */
     padding-right: 15%;
     color: aqua;
     font-size: 14pt;
+}
+
+.themed-container {
+    margin-top: 5%;
+}
+
+.projects-container {
+    margin: 10pt;
+}
+
+.kaite-name {
+    padding-bottom: 15pt;
+    text-align: left;
 }

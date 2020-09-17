@@ -7,7 +7,7 @@ import {
   CardText,
   Button,
   Row,
-  Col,
+  Col, Container
 } from "reactstrap";
 import Brewr from "../../assets/brewr-img.jpg";
 import Weather from "../../assets/weather-dashboard.jpg";
@@ -23,20 +23,15 @@ import "../../index.css";
 
 
 function Projects() {
-  //   <Row>
-  //   <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
-  //   <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
-
-  // </Row>
 
   return (
-    <div className="container">
+    <div>
+    <Container className="projects-container">
       <h1>Here's the projects page</h1>
       <div>
         <Row>
           <Col xs="6" sm="4">
-            <Card class="d-flex justify-content-center"
-            >
+            <Card class="d-flex justify-content-center">
               <CardImg top width="100%" src={Brewr} alt="Card image cap" />
               <CardBody>
               <div className="d-flex justify-content-center">
@@ -263,6 +258,7 @@ function Projects() {
           </CardBody>
         </Card>
       </div>
+      </Container>
     </div>
   );
 }

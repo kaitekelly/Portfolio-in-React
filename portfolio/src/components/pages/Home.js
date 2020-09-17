@@ -15,11 +15,11 @@ function Home() {
         <div>
           <Row>
             <Col xs="6">
-              {" "}
-              <h2>Home Page About me...</h2>
-              <img src={kaitepic} alt="Logo" />;
+
+              <img src={kaitepic} alt="picture of kaite kelly" />;
             </Col>
             <Col xs="6">
+              <h2 className="kaite-name">Kaite Kelly</h2>
               <p className="bio">
                 I am currently enrolled in the University of Washington's coding
                 bootcamp certificate program and hope to find a job as a
