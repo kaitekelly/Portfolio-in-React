@@ -27,19 +27,19 @@ export default function Portfolio() {
 
         </div>
               <Switch>
-              <Route path="/Home">
+              <Route exact path="/" component={Home}>
                       <Home/>
                   </Route>
-                  <Route path="/About">
+                  <Route exact path="/about" component={About}>
                       <About/>
                   </Route>
-                  <Route path="/Kathleen_Kelly_Resume_Dev">
+                  <Route exact path="/resume" component={Resume}>
                       <Resume />
                   </Route>
-                  <Route path="/Contact">
+                  <Route exact path="/contact" component={Contact}>
                       <Contact />
                   </Route>
-                  <Route path="/projects">
+                  <Route exact path="/projects" component={Projects}>
                       <Projects />
                   </Route>
                   <Route path="/gallery">
