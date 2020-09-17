@@ -29,7 +29,7 @@ import ReadGen from "../../assets/readme-generator.jpg";
 function Gallery()  {
   
     return(
-      <div>
+      <div className="container">
       <Row>
         <Col xs="6" sm="4">
         <Card>

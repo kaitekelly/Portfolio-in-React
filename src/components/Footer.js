@@ -1,7 +1,7 @@
 import React from "react";
 // import { Footer } from "react-strap";
 import "../index.css";
-import "./style.css";
+// import "./style.css";
 
 
 
@@ -11,7 +11,7 @@ function Footer(props) {
     return (
         
     <footer className="footer">
-        <p className="footer__content">copyright Kaite Kelly { new Date().getFullYear() } </p>
+        <p>copyright Kaite Kelly { new Date().getFullYear() } </p>
     </footer>
     )
 }

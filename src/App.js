@@ -22,7 +22,7 @@ import Portfolio from './components/PortfolioContainer';
 export default function App() {
     return (
         <div>
-        <NavTabs></NavTabs>
+        <NavTabs />
         <Portfolio />
         <Footer />
         </div>
