@@ -10,7 +10,7 @@ function Footer(props) {
 
     return (
         
-        <footer className="footer">
+    <footer className="footer">
         <p className="footer__content">copyright Kaite Kelly { new Date().getFullYear() } </p>
     </footer>
     )
