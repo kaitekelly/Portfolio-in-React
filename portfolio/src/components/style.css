@@ -11,6 +11,13 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+
+  .footer {
+    justify-content: center;
+    align-items: center;
+    font-size: 24;
+    color: rgb(23, 23, 56);
+  }
   
   .nav {
   

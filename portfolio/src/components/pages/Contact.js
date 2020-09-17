@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 
 function Contact() {
   return (
-    <Container>
+    <Container className="themed-container">
       <Row>
         <Col>
           <h3 id="contact-me"> Contact me...</h3>

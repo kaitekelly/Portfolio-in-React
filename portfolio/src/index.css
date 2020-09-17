@@ -18,6 +18,12 @@ code {
 
 } 
 
+.about-me {
+  background-color: #16697a;
+}
+
+
+
 .navtabs {
 
 }
@@ -43,14 +49,19 @@ code {
   /* margin-top: 1rem; */
   padding: 1rem;
   background-color: rgb(207, 212, 197);
-  /* color: rgb(23, 23, 56); */
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+
+  
+}
+
+.footer-type {
   justify-content: center;
   align-items: center;
-  
+  font-size: 24;
+  color: rgb(23, 23, 56);
 }
 
 .container {
