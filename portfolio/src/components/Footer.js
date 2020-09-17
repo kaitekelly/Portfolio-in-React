@@ -7,18 +7,9 @@ import React from "react";
 function Footer() {
     return (
         <footer className="footer">
-        copyright Kaite Kelly { new Date().getFullYear() }
+        <p style={{color: 171738}} >copyright Kaite Kelly { new Date().getFullYear() } </p>
     </footer>
     )
 }
 
 export default Footer;
-
-// style={{
-//     backgroundImage: `url(${ImageBackground})`,
-//     backgroundPosition: 'center',
-//     backgroundSize: 'cover',
-//     backgroundRepeat: 'no-repeat',
-//     width: "100%",
-//     height: "1000px",
-// }}

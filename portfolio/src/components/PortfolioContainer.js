@@ -24,7 +24,7 @@ export default function Portfolio() {
       <Router>
           <div>
         <div>
-            <NavTabs></NavTabs>
+
         </div>
               <Switch>
               <Route path="/Home">

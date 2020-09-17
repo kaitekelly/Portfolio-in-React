@@ -5,7 +5,7 @@ const NavTabs = (props) => {
   return (
     <div>
       <Nav>
-        <NavLink href="/">Home</NavLink> <NavLink href="/about">About</NavLink> <NavLink href="/gallery">Projects</NavLink> <NavLink href="/resume">Resume</NavLink> <NavLink href="/contact">Contact</NavLink>
+        <NavLink href="/home">Home</NavLink> <NavLink href="/about">About</NavLink> <NavLink href="/gallery">Projects</NavLink> <NavLink href="/resume">Resume</NavLink> <NavLink href="/contact">Contact</NavLink>
       </Nav>
     </div>
   );

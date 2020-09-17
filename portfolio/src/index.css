@@ -43,7 +43,7 @@ code {
   /* margin-top: 1rem; */
   padding: 1rem;
   background-color: rgb(207, 212, 197);
-  color: rgb(23, 23, 56);
+  /* color: rgb(23, 23, 56); */
   position: fixed;
   bottom: 0;
   left: 0;
@@ -72,5 +72,5 @@ code {
 }
 
 p {
-  color: purple;
+  /* color: purple; */
 }

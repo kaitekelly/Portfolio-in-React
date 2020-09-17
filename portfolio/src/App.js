@@ -14,6 +14,7 @@ import { BrowserRouter as Router,
 import Footer from "./components/Footer";
 // import Gallery from './components/pages/Gallery';
 // import Home from "./components/pages/Home";
+import NavTabs from "./components/NavTabs";
 import Portfolio from './components/PortfolioContainer';
 
 
@@ -21,6 +22,7 @@ import Portfolio from './components/PortfolioContainer';
 export default function App() {
     return (
         <div>
+        <NavTabs></NavTabs>
         <Portfolio />
         <Footer />
         </div>
