@@ -7,7 +7,7 @@ function Navbar(props) {
   return (
     <div>
       <Nav className="nav">
-        <Link to="/" className={location.pathname === "/" ? "nav"}>Home</Link> 
+        <Link to="/">Home</Link> 
         <Link to="/about">About</Link> 
         <Link to="/gallery">Projects</Link> 
         <Link to="/resume">Resume</Link> 
