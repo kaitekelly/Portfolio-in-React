@@ -1,52 +1,45 @@
-import React from 'react';
-// import './App.css';
-// import { BrowserRouter as Router, Route } from "react-router-dom";
-import { BrowserRouter as Router,
-        Switch, 
-        Route
-     } from "react-router-dom";
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import About from "../components/pages/About";
 import Resume from "../components/pages/Resume";
 import Contact from "../components/pages/Contact";
 import Projects from "../components/pages/Projects";
-import NavTabs from "../components/NavTabs";
-import Gallery from "../components/pages/Gallery";
+import Navbar from "./Navbar";
 import Home from "../components/pages/Home";
-
-// import PortfolioContainer from "../components/projects"
-
+import Footer from "./Footer";
 
 
-export default function Portfolio() {
+class Portfolio extends Component {
 
-    return (
-      <Router>
-          <div>
-        {/* <div>
+    state = {
+        currentPage: "Home"
+    };
 
-        </div> */}
-              {/* <Switch> */}
-              <Route exact path="/Portfolio-in-React" component={Home}>
-                      <Home/>
-                  </Route>
-                  <Route exact path="/about" component={About}>
-                      <About/>
-                  </Route>
-                  <Route exact path="/resume" component={Resume}>
-                      <Resume />
-                  </Route>
-                  <Route exact path="/contact" component={Contact}>
-                      <Contact />
-                  </Route>
-                  <Route exact path="/projects" component={Projects}>
-                      <Projects />
-                  </Route>
-                  <Route path="/gallery">
-                    <Gallery />
-                  </Route>
-              {/* </Switch> */}
-          </div>
-      </Router>
-    );
+    render() {
+        return (
+            <Router>
+              <div>
+              <main>
+                <div>
+                  <Navbar 
+                      currentPage={this.state.currentPage}
+                  />
+                </div>
+                  <Route exact path="/" component={Home} />
+                  <Route exact path="/about" component={About} />
+                  <Route exact path="/resume" component={Resume} />
+                  <Route exact path="/contact" component={Contact} />
+                  <Route exact path="/projects" component={Projects} />
+                  <Route path="/gallery" />
+                </main>
+                <Footer />
+              </div>
+            </Router>
+          );
+
+    }
+
 }
+
+export default Portfolio;

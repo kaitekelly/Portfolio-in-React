@@ -1,14 +1,14 @@
 import React from "react";
-import NavTabs from "../components/NavTabs";
+import Navbar from "../components/Navbar";
 import "./style.css";
 
 const Header = () => {
    return(
     <div>
     <h2>Kaite Kelly - Dev Portfolio</h2>
-    <NavTabs>
+    <Navbar>
 
-    </NavTabs> 
+    </Navbar> 
     </div>
    ) 
 }
