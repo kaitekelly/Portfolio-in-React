@@ -13,7 +13,7 @@ export default function Resume() {
     <div className="Resume">
       <h1>Resume should display here</h1>
       <a href="https://drive.google.com/file/d/1gDFV01YSG3jDeLpCHccbBx1wzrPr6EkM/view?usp=sharing" target="blank">View Resume</a>
-      <img></img>
+      {/* <img></img> */}
     </div>
     // {/* <div>
     // <img className="img-fluid" 

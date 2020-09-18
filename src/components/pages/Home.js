@@ -6,9 +6,7 @@ import kaitepic from "./IMG_0414_a.jpeg";
 import "./style.css";
 
 function Home() {
-  //   <div className='home'>
-  //   <img src={require("../../assets/")} id="home-image" alt="informatics"></img>
-  //   </div>
+
   return (
     <div>
       <Container className="themed-container">
@@ -16,7 +14,7 @@ function Home() {
           <Row>
             <Col xs="6">
 
-              <img src={kaitepic} alt="picture of kaite kelly" />;
+              <img src={kaitepic} alt="picture of kaite kelly" />
             </Col>
             <Col xs="6">
               <h2 className="kaite-name">Kaite Kelly</h2>
