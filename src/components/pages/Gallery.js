@@ -23,13 +23,13 @@ import Express from "../../assets/express-note-taker-image.jpg";
 import Team from "../../assets/team-roster-image.jpg";
 import Random from "../../assets/password-generator-color.jpg";
 import ReadGen from "../../assets/readme-generator.jpg";
-
+import "./style.css";
 
 
 function Gallery()  {
   
     return(
-      <div className="container">
+      <div className="gallery-container">
       <Row>
         <Col xs="6" sm="4">
         <Card>

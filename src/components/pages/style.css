@@ -10,11 +10,22 @@
     margin-top: 5%;
 }
 
-.projects-container {
-    margin: 10pt;
+.card-title {
+    justify-content: center;
+   }
+.gallery-container{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .kaite-name {
     padding-bottom: 15pt;
     text-align: left;
+}
+
+.btn-secondary {
+    margin: 4%;
+    text-align: center;
+    
 }

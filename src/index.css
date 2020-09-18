@@ -37,9 +37,7 @@ padding-inline-start: 15%;
   
 }
 
-.card-title {
- justify-content: center;
-}
+
 
 .button {
   color: red;
@@ -80,7 +78,7 @@ padding-inline-start: 15%;
 }
 
 .card-title {
-  justifyContent: center;
+  text-align: center;
   color: purple;
 }
 
