@@ -10,9 +10,6 @@ import {
   Col, 
   Row
 } from "reactstrap";
-// import Wrapper from "../Wrapper";
-// import ProjectCard from "../../components/projects/ProjectCard";
-// import projects from "../projects/ProjectsArray";
 import Brewr from "../../assets/brewr-img.jpg";
 import Weather from "../../assets/weather-dashboard.jpg";
 import Brgr from "../../assets/burger-wish-image.jpg";
@@ -83,7 +80,7 @@ function Gallery()  {
       <CardImg top width="100%" src={Work} alt="Card image cap" />
       <CardBody>
         <CardTitle>Workday Scheduler</CardTitle>
-        <CardSubtitle>Card subtitle</CardSubtitle>
+        <CardSubtitle></CardSubtitle>
         <CardText>
         A work day scheduler and calendar application.
         </CardText>
@@ -98,7 +95,7 @@ function Gallery()  {
       <CardImg top width="100%" src={Brgr} alt="Card image cap" />
       <CardBody>
         <CardTitle>Burger Lust Wish List</CardTitle>
-        <CardSubtitle>Card subtitle</CardSubtitle>
+        <CardSubtitle></CardSubtitle>
         <CardText>
         An application where user can enter and delete burgers they would like to eat to and from a database.
         </CardText>
@@ -112,7 +109,7 @@ function Gallery()  {
       <CardImg top width="100%" src={Express} alt="Card image cap" />
       <CardBody>
         <CardTitle>Express Note Taker</CardTitle>
-        <CardSubtitle>Card subtitle</CardSubtitle>
+        <CardSubtitle></CardSubtitle>
         <CardText>
         A personal note taker created with Node and Express.
         </CardText>
@@ -129,7 +126,7 @@ function Gallery()  {
       <CardImg top width="100%" src={Team} alt="Card image cap" />
       <CardBody>
         <CardTitle>Team Roster</CardTitle>
-        <CardSubtitle>Card subtitle</CardSubtitle>
+        <CardSubtitle></CardSubtitle>
         <CardText>
         A personal note taker created with Node and Express.
         </CardText>
@@ -143,7 +140,7 @@ function Gallery()  {
       <CardImg top width="100%" src={EmpDb} alt="Card image cap" />
       <CardBody>
         <CardTitle>Employee Database Command Line Application</CardTitle>
-        <CardSubtitle>Card subtitle</CardSubtitle>
+        <CardSubtitle></CardSubtitle>
         <CardText>
         A command line interface to generate a team roster with individual employee information for team management.
         </CardText>
@@ -157,7 +154,7 @@ function Gallery()  {
       <CardImg top width="100%" src={Random} alt="Card image cap" />
       <CardBody>
         <CardTitle>Random Number Generator</CardTitle>
-        <CardSubtitle>Card subtitle</CardSubtitle>
+        <CardSubtitle></CardSubtitle>
         <CardText>
         A password generator using random numbers and special characters.
         </CardText>
@@ -174,7 +171,7 @@ function Gallery()  {
       <CardImg top width="100%" src={ReadGen} alt="Card image cap" />
       <CardBody>
         <CardTitle>README Generator</CardTitle>
-        <CardSubtitle>Card subtitle</CardSubtitle>
+        <CardSubtitle></CardSubtitle>
         <CardText>
         A command line README generator for quick, efficient project README's.
         </CardText>
@@ -183,8 +180,8 @@ function Gallery()  {
        </CardBody>
       </Card>
         </Col>
-        <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
-        <Col sm="4">.col-sm-4</Col>
+        <Col xs="6" sm="4"></Col>
+        <Col sm="4"></Col>
       </Row>
       </div>
     )
