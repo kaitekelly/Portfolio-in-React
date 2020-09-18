@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Container } from "reactstrap";
 // import pdf from "./Kathleen_Murphy_Resume_Dev";
 
 
@@ -11,10 +12,12 @@ inside the app. Otherwise you can use the external link of the pdf file*/
 export default function Resume() {
   return (
     <div className="Resume">
-      <h1>Resume should display here</h1>
+      <Container className="container">
+      <h1>Click link to view and download my resume</h1>
       <a href="https://drive.google.com/file/d/1gDFV01YSG3jDeLpCHccbBx1wzrPr6EkM/view?usp=sharing" target="blank">View Resume</a>
-      {/* <img></img> */}
+      </Container>
     </div>
+    
     // {/* <div>
     // <img className="img-fluid" 
     //  src={`${process.env.PUBLIC_URL}/assets/Kathleen_Kelly_Resume_Dev.pdf`} 

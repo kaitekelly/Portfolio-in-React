@@ -23,7 +23,7 @@ class Portfolio extends Component {
               <Navbar currentPage={this.state.currentPage} />
             </div>
             <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
+            {/* <Route exact path="/about" component={About} /> */}
             <Route exact path="/resume" component={Resume} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/gallery" component={Gallery} />
