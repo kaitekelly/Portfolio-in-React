@@ -1,7 +1,8 @@
 
 import React from "react";
+import { Document, Page } from 'react-pdf';
 import { Container } from "reactstrap";
-// import pdf from "./Kathleen_Murphy_Resume_Dev";
+import pdf from "./Kathleen_Kelly_Resume_Dev.pdf";
 
 
 /* This is required only if the project file is located 
@@ -15,15 +16,44 @@ export default function Resume() {
       <Container className="themed-container">
       <h1>Click link to view and download my resume</h1>
       <a href="https://drive.google.com/file/d/1gDFV01YSG3jDeLpCHccbBx1wzrPr6EkM/view?usp=sharing" target="blank">View Resume</a>
+      <div onLoadError={console.error}>
+        <Document file={pdf}>
+          <Page pageNumber={1}/>
+        </Document>
+      </div>
       </Container>
     </div>
-    
-    // {/* <div>
-    // <img className="img-fluid" 
-    //  src={`${process.env.PUBLIC_URL}/assets/Kathleen_Kelly_Resume_Dev.pdf`} 
-    //  alt="logo"/>
-    //  </div> */}
+
+
   );
 }
 
-//I just linked mine as a pdf on google docs. Then I created an anchor tag on my site that links to that pdf resume
+// import React from 'react';
+  // import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
+
+// Create styles
+// const styles = StyleSheet.create({
+//   page: {
+//     flexDirection: 'row',
+//     backgroundColor: '#E4E4E4'
+//   },
+//   section: {
+//     margin: 10,
+//     padding: 10,
+//     flexGrow: 1
+//   }
+// });
+
+// // Create Document Component
+// const MyDocument = () => (
+//   <Document>
+//     <Page size="A4" style={styles.page}>
+//       <View style={styles.section}>
+//         <Text>Section #1</Text>
+//       </View>
+//       <View style={styles.section}>
+//         <Text>Section #2</Text>
+//       </View>
+//     </Page>
+//   </Document>
+// );
