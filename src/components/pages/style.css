@@ -13,6 +13,7 @@
 .card-title {
     justify-content: center;
    }
+
 .gallery-container{
     margin-top: 5%;
     margin-left: 5%;
@@ -22,6 +23,15 @@
 .kaite-name {
     padding-bottom: 15pt;
     text-align: left;
+}
+
+.contact {
+    font-size: 18pt;
+    padding: 20pt;
+}
+
+#contact-me {
+    padding: 20pt;
 }
 
 .btn-secondary {

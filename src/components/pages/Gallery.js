@@ -24,6 +24,11 @@ import "./style.css";
 
 
 function Gallery()  {
+
+  // const Button = {
+  //   margin: 1,
+    
+  // }
   
     return(
       <div className="gallery-container">
