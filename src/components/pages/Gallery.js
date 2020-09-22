@@ -188,6 +188,134 @@ function Gallery()  {
         <Col xs="6" sm="4"></Col>
         <Col sm="4"></Col>
       </Row>
+      <br></br>
+      <Row>
+        <Col xs="6" sm="4">
+        <Card>
+      <CardImg top width="100%" src={Team} alt="Card image cap" />
+      <CardBody>
+        <CardTitle>Team Roster</CardTitle>
+        <CardSubtitle></CardSubtitle>
+        <CardText>
+        A personal note taker created with Node and Express.
+        </CardText>
+        <Button href="https://expresscilnotetaker.herokuapp.com/">Site</Button>
+        <Button href="https://github.com/kaitekelly/Express-Note-Taker">Repo</Button>
+       </CardBody>
+      </Card>
+        </Col>
+        <Col xs="6" sm="4">
+        <Card>
+      <CardImg top width="100%" src={EmpDb} alt="Card image cap" />
+      <CardBody>
+        <CardTitle>Employee Database Command Line Application</CardTitle>
+        <CardSubtitle></CardSubtitle>
+        <CardText>
+        A command line interface to generate a team roster with individual employee information for team management.
+        </CardText>
+        <Button href="https://github.com/kaitekelly/CMS-Employee-Database">Site</Button>
+        <Button href="https://github.com/kaitekelly/CMS-Employee-Database">Repo</Button>
+       </CardBody>
+      </Card>
+        </Col>
+        <Col sm="4">
+        <Card>
+      <CardImg top width="100%" src={Random} alt="Card image cap" />
+      <CardBody>
+        <CardTitle>Random Number Generator</CardTitle>
+        <CardSubtitle></CardSubtitle>
+        <CardText>
+        A password generator using random numbers and special characters.
+        </CardText>
+        <Button href="https://kaitekelly.github.io/SuperEncryptedPassword/">Site</Button>
+        <Button href="https://github.com/kaitekelly/SuperEncryptedPassword">Repo</Button>
+       </CardBody>
+      </Card>
+        </Col>
+      </Row>
+      <br></br>
+      <Row>
+        <Col xs="6" sm="4">
+        <Card>
+      <CardImg top width="100%" src={ReadGen} alt="Card image cap" />
+      <CardBody>
+        <CardTitle>README Generator</CardTitle>
+        <CardSubtitle></CardSubtitle>
+        <CardText>
+        A command line README generator for quick, efficient project README's.
+        </CardText>
+        <Button href="https://kaitekelly.github.io/Efficient-README-Generator/">Site</Button>
+        <Button href="https://github.com/kaitekelly/Efficient-README-Generator">Repo</Button>
+       </CardBody>
+      </Card>
+        </Col>
+        <Col xs="6" sm="4"></Col>
+        <Col sm="4"></Col>
+      </Row>
+      <br></br>
+      <Row>
+        <Col xs="6" sm="4">
+        <Card>
+      <CardImg top width="100%" src={Team} alt="Card image cap" />
+      <CardBody>
+        <CardTitle>Team Roster</CardTitle>
+        <CardSubtitle></CardSubtitle>
+        <CardText>
+        A personal note taker created with Node and Express.
+        </CardText>
+        <Button href="https://expresscilnotetaker.herokuapp.com/">Site</Button>
+        <Button href="https://github.com/kaitekelly/Express-Note-Taker">Repo</Button>
+       </CardBody>
+      </Card>
+        </Col>
+        <Col xs="6" sm="4">
+        <Card>
+      <CardImg top width="100%" src={EmpDb} alt="Card image cap" />
+      <CardBody>
+        <CardTitle>Employee Database Command Line Application</CardTitle>
+        <CardSubtitle></CardSubtitle>
+        <CardText>
+        A command line interface to generate a team roster with individual employee information for team management.
+        </CardText>
+        <Button href="https://github.com/kaitekelly/CMS-Employee-Database">Site</Button>
+        <Button href="https://github.com/kaitekelly/CMS-Employee-Database">Repo</Button>
+       </CardBody>
+      </Card>
+        </Col>
+        <Col sm="4">
+        <Card>
+      <CardImg top width="100%" src={Random} alt="Card image cap" />
+      <CardBody>
+        <CardTitle>Random Number Generator</CardTitle>
+        <CardSubtitle></CardSubtitle>
+        <CardText>
+        A password generator using random numbers and special characters.
+        </CardText>
+        <Button href="https://kaitekelly.github.io/SuperEncryptedPassword/">Site</Button>
+        <Button href="https://github.com/kaitekelly/SuperEncryptedPassword">Repo</Button>
+       </CardBody>
+      </Card>
+        </Col>
+      </Row>
+      <br></br>
+      <Row>
+        <Col xs="6" sm="4">
+        <Card>
+      <CardImg top width="100%" src={ReadGen} alt="Card image cap" />
+      <CardBody>
+        <CardTitle>README Generator</CardTitle>
+        <CardSubtitle></CardSubtitle>
+        <CardText>
+        A command line README generator for quick, efficient project README's.
+        </CardText>
+        <Button href="https://kaitekelly.github.io/Efficient-README-Generator/">Site</Button>
+        <Button href="https://github.com/kaitekelly/Efficient-README-Generator">Repo</Button>
+       </CardBody>
+      </Card>
+        </Col>
+        <Col xs="6" sm="4"></Col>
+        <Col sm="4"></Col>
+      </Row>
       </div>
     )
 };
