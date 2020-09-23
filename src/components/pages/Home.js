@@ -19,12 +19,11 @@ function Home() {
             <Col xs="6">
               <h2 className="kaite-name">Kaite Kelly</h2>
               <p className="bio">
-                I am currently enrolled in the University of Washington's coding
-                bootcamp certificate program and hope to find a job as a
-                developer after completion of the course. Prior to this, I
-                worked in various roles in the fashion industry including,
-                Digital Media Manager at Nautica, and on the apparel design
-                teams as creative coordinator to the Creative Directors of
+                I am a graduate of the University of Washington's Full-Stack developer
+                certificate program. My past experience includes various roles in 
+                the fashion industry including, Digital Media Manager at Nautica, 
+                and on the apparel design teams as creative coordinator to the 
+                Creative Directors of
                 Nautica and Tommy Hilfiger.
               </p>
             </Col>

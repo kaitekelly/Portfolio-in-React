@@ -21,8 +21,10 @@ import Team from "../../assets/team-roster-image.jpg";
 import Random from "../../assets/password-generator-color.jpg";
 import ReadGen from "../../assets/readme-generator.jpg";
 import BookSrch from "../../assets/google-book-search.png";
+import SoundVes from "../../assets/sound-vessel-traffic.png";
 import "./style.css";
 
+// src/assets/sound-vessel-traffic.png
 
 function Gallery()  {
 
@@ -194,7 +196,7 @@ function Gallery()  {
       <Row>
         <Col xs="6" sm="4">
         <Card>
-      <CardImg top width="100%" src={BookSrch} alt="Card image cap" />
+      <CardImg top width="100%" src={BookSrch} alt="google book search" />
       <CardBody>
         <CardTitle>Google Book Search</CardTitle>
         <CardSubtitle></CardSubtitle>
@@ -208,15 +210,15 @@ function Gallery()  {
         </Col>
         <Col xs="6" sm="4">
         <Card>
-      <CardImg top width="100%" src={EmpDb} alt="Card image cap" />
+      <CardImg top width="100%" src={SoundVes} alt="sound-vessel-traffic" />
       <CardBody>
-        <CardTitle>Employee Database Command Line Application</CardTitle>
+        <CardTitle>Sound Vessel Traffic App</CardTitle>
         <CardSubtitle></CardSubtitle>
         <CardText>
-        A command line interface to generate a team roster with individual employee information for team management.
+        A CRUD app that allows me to plan boating trips and search for large vessels I may encounter while in my pleasure craft.
         </CardText>
-        <Button href="https://github.com/kaitekelly/CMS-Employee-Database">Site</Button>
-        <Button href="https://github.com/kaitekelly/CMS-Employee-Database">Repo</Button>
+        <Button href="https://salty-depths-31986.herokuapp.com/">Site</Button>
+        <Button href="https://github.com/kaitekelly/Sound-Vessel-Traffic">Repo</Button>
        </CardBody>
       </Card>
         </Col>
