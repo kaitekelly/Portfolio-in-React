@@ -20,6 +20,7 @@ import Express from "../../assets/express-note-taker-image.jpg";
 import Team from "../../assets/team-roster-image.jpg";
 import Random from "../../assets/password-generator-color.jpg";
 import ReadGen from "../../assets/readme-generator.jpg";
+import BookSrch from "../../assets/google-book-search.png";
 import "./style.css";
 
 
@@ -189,18 +190,19 @@ function Gallery()  {
         <Col sm="4"></Col>
       </Row>
       <br></br>
+      {/* ******************************** */}
       <Row>
         <Col xs="6" sm="4">
         <Card>
-      <CardImg top width="100%" src={Team} alt="Card image cap" />
+      <CardImg top width="100%" src={BookSrch} alt="Card image cap" />
       <CardBody>
-        <CardTitle>Team Roster</CardTitle>
+        <CardTitle>Google Book Search</CardTitle>
         <CardSubtitle></CardSubtitle>
         <CardText>
-        A personal note taker created with Node and Express.
+        A react app using google book search api to search and then save books to a mongodb database. 
         </CardText>
-        <Button href="https://expresscilnotetaker.herokuapp.com/">Site</Button>
-        <Button href="https://github.com/kaitekelly/Express-Note-Taker">Repo</Button>
+        <Button href="https://kaites-google-book-search.herokuapp.com/">Site</Button>
+        <Button href="https://github.com/kaitekelly/Google-Books-Search">Repo</Button>
        </CardBody>
       </Card>
         </Col>
