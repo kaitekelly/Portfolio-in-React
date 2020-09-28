@@ -1,8 +1,8 @@
 
 import React from "react";
-import { Document, Page } from 'react-pdf';
+// import { Document, Page } from 'react-pdf';
 import { Container } from "reactstrap";
-import pdf from "./Kathleen_Kelly_Resume_Dev.pdf";
+// import pdf from "./Kathleen_Kelly_Resume_Dev.pdf";
 
 
 /* This is required only if the project file is located 
@@ -16,11 +16,6 @@ export default function Resume() {
       <Container className="themed-container">
       <h1>Click link to view and download my resume</h1>
       <a href="https://drive.google.com/file/d/1gDFV01YSG3jDeLpCHccbBx1wzrPr6EkM/view?usp=sharing" target="blank">View Resume</a>
-      <div onLoadError={console.error}>
-        <Document file={pdf}>
-          <Page pageNumber={1}/>
-        </Document>
-      </div>
       </Container>
     </div>
 
