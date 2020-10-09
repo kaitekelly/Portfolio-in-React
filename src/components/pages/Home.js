@@ -19,12 +19,12 @@ function Home() {
             <Col xs="6">
               <h2 className="kaite-name">Kaite Kelly</h2>
               <p className="bio">
-                I am a graduate of the University of Washington's Full-Stack developer
-                certificate program. My past experience includes various roles in 
-                the fashion industry including, Digital Media Manager at Nautica, 
-                and on the apparel design teams as creative coordinator to the 
-                Creative Directors of
-                Nautica and Tommy Hilfiger.
+              Creative, collaborative and detail oriented Full Stack Web Developer with a passion 
+              for integrating technologies to solve problems and improve upon existing 
+              methods. Experience leveraging background in digital marketing and fashion 
+              to provide unique perspectives on how end-users interact with web applications. ​
+              Excellent interpersonal communication skills and collaborator who works well on 
+              team-based projects as well as independently. 
               </p>
             </Col>
           </Row>
