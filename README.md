@@ -16,7 +16,7 @@ https://portfolio-in-react.herokuapp.com/
 # Link to Repo:
 🚀 https://github.com/kaitekelly/Portfolio-in-React
 
-# LinkEd in Profile:
+# Linked in Profile:
 https://www.linkedin.com/in/kaite-kelly-2147802a/
 
 # Description:
