@@ -21,7 +21,7 @@ function Home() {
               <p className="bio">
               Creative, collaborative and detail oriented Full Stack Web Developer with a passion 
               for integrating technologies to solve problems and improve upon existing 
-              methods. Experience leveraging background in digital marketing and fashion 
+              methods. Experience leveraging background in digital marketing and fashion design
               to provide unique perspectives on how end-users interact with web applications. ​
               Excellent interpersonal communication skills and collaborator who works well on 
               team-based projects as well as independently. 
