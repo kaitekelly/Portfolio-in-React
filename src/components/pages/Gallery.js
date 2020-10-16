@@ -50,10 +50,10 @@ function Gallery() {
                 A CRUD app that allows me to plan boating trips and search for
                 large vessels I may encounter while in my pleasure craft.
               </CardText>
-              <Button href="https://salty-depths-31986.herokuapp.com/">
+              <Button href="https://salty-depths-31986.herokuapp.com/" target="blank">
                 Site
               </Button>
-              <Button href="https://github.com/kaitekelly/Sound-Vessel-Traffic">
+              <Button href="https://github.com/kaitekelly/Sound-Vessel-Traffic" target="blank">
                 Repo
               </Button>
             </CardBody>
@@ -69,8 +69,8 @@ function Gallery() {
                 An application for craft beer lovers and breweries to search,
                 favorite, and blog about craft breweries.
               </CardText>
-              <Button href="https://brewrs.herokuapp.com/">Site</Button>
-              <Button href="https://github.com/JMantis0/brewR">Repo</Button>
+              <Button href="https://brewrs.herokuapp.com/" target="blank">Site</Button>
+              <Button href="https://github.com/JMantis0/brewR" target="blank">Repo</Button>
             </CardBody>
           </Card>
         </Col>
@@ -84,10 +84,10 @@ function Gallery() {
                 Find Next Gig an app to find out the next time a band or artist
                 has a gig.
               </CardText>
-              <Button href="https://merkraith.github.io/Band-Tour-Manager/">
+              <Button href="https://merkraith.github.io/Band-Tour-Manager/" target="blank">
                 Site
               </Button>
-              <Button href="https://github.com/Merkraith/Band-Tour-Manager">
+              <Button href="https://github.com/Merkraith/Band-Tour-Manager" target="blank">
                 Repo
               </Button>
             </CardBody>
@@ -106,10 +106,10 @@ function Gallery() {
                 A react app using google book search api to search and then save
                 books to a mongodb database.
               </CardText>
-              <Button href="https://kaites-google-book-search.herokuapp.com/">
+              <Button href="https://kaites-google-book-search.herokuapp.com/" target="blank">
                 Site
               </Button>
-              <Button href="https://github.com/kaitekelly/Google-Books-Search">
+              <Button href="https://github.com/kaitekelly/Google-Books-Search" target="blank">
                 Repo
               </Button>
             </CardBody>
@@ -125,10 +125,10 @@ function Gallery() {
                 A weather dashboard to tell me the forecast for a city that I
                 search.
               </CardText>
-              <Button href="https://kaitekelly.github.io/WeatherDashboard/">
+              <Button href="https://kaitekelly.github.io/WeatherDashboard/" target="blank">
                 Site
               </Button>
-              <Button href="https://github.com/kaitekelly/WeatherDashboard">
+              <Button href="https://github.com/kaitekelly/WeatherDashboard" target="blank">
                 Repo
               </Button>
             </CardBody>
@@ -144,10 +144,10 @@ function Gallery() {
               <CardText>
                 A work day scheduler and calendar application.
               </CardText>
-              <Button href="https://kaitekelly.github.io/WorkDayScheduler/">
+              <Button href="https://kaitekelly.github.io/WorkDayScheduler/" target="blank">
                 Site
               </Button>
-              <Button href="https://github.com/kaitekelly/WorkDayScheduler">
+              <Button href="https://github.com/kaitekelly/WorkDayScheduler" target="blank">
                 Repo
               </Button>
             </CardBody>
@@ -162,10 +162,10 @@ function Gallery() {
               <CardText>
                 A personal note taker created with Node and Express.
               </CardText>
-              <Button href="https://expresscilnotetaker.herokuapp.com/">
+              <Button href="https://expresscilnotetaker.herokuapp.com/" target="blank">
                 Site
               </Button>
-              <Button href="https://github.com/kaitekelly/Express-Note-Taker">
+              <Button href="https://github.com/kaitekelly/Express-Note-Taker" target="blank">
                 Repo
               </Button>
             </CardBody>
@@ -182,10 +182,10 @@ function Gallery() {
                 An application where user can enter and delete burgers they
                 would like to eat to and from a database.
               </CardText>
-              <Button href="https://nameless-fortress-05511.herokuapp.com/">
+              <Button href="https://nameless-fortress-05511.herokuapp.com/" target="blank">
                 Site
               </Button>
-              <Button href="https://github.com/kaitekelly/Burger-Wish">
+              <Button href="https://github.com/kaitekelly/Burger-Wish" target="blank">
                 Repo
               </Button>
             </CardBody>
@@ -200,10 +200,10 @@ function Gallery() {
               <CardText>
                 A personal note taker created with Node and Express.
               </CardText>
-              <Button href="https://expresscilnotetaker.herokuapp.com/">
+              <Button href="https://expresscilnotetaker.herokuapp.com/" target="blank">
                 Site
               </Button>
-              <Button href="https://github.com/kaitekelly/Express-Note-Taker">
+              <Button href="https://github.com/kaitekelly/Express-Note-Taker" target="blank">
                 Repo
               </Button>
             </CardBody>
