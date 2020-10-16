@@ -15,7 +15,7 @@ export default function Resume() {
     <div className="Resume">
       <Container className="themed-container">
       <h1>Click link to view and download my resume</h1>
-      <a href="https://docs.google.com/document/d/16VApBcn5kJzXkACqiMO3dTHcV-VYVgcVb4DpptMW8ng/edit?usp=sharing" target="blank">View Resume</a>
+      <a href="https://docs.google.com/document/d/1srAfcL5tCjcfR3c9VXBsIIeT3fYwDBi85lHKJk6ZMR0/edit?usp=sharing" target="blank">View Resume</a>
       </Container>
     </div>
 
