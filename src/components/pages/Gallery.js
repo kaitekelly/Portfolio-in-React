@@ -20,7 +20,7 @@ import Express from "../../assets/express-note-taker-image.jpg";
 import Team from "../../assets/team-roster-image.jpg";
 import Random from "../../assets/password-generator-color.jpg";
 import ReadGen from "../../assets/readme-generator.jpg";
-import BookSrch from "../../assets/google-book-search.png";
+import BookSrch from "../../assets/google-saved-books.png";
 import SoundVes from "../../assets/sound-vessel-traffic.png";
 import "./style.css";
 
