@@ -13,13 +13,13 @@ import {
 import Brewr from "../../assets/brewr-img.jpg";
 import Weather from "../../assets/weather-dashboard.jpg";
 import Brgr from "../../assets/burger-wish-image.jpg";
-import EmpDb from "../../assets/employee-database.jpg";
+// import EmpDb from "../../assets/employee-database.jpg";
 import Gig from "../../assets/find-next-gig.jpg";
 import Work from "../../assets/workday-scheduler.jpg";
 import Express from "../../assets/express-note-taker-image.jpg";
 import Team from "../../assets/team-roster-image.jpg";
-import Random from "../../assets/password-generator-color.jpg";
-import ReadGen from "../../assets/readme-generator.jpg";
+// import Random from "../../assets/password-generator-color.jpg";
+// import ReadGen from "../../assets/readme-generator.jpg";
 import BookSrch from "../../assets/google-saved-books.png";
 import SoundVes from "../../assets/sound-vessel-traffic.png";
 import "./style.css";
