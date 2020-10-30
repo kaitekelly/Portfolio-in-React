@@ -8,6 +8,7 @@
 
 .themed-container {
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .card-title {
@@ -38,4 +39,10 @@
     margin: 4%;
     text-align: center;
     
+}
+
+.tech-skills {
+    text-align: left;
+    padding-left: 6%;
+    padding-top: 4%;
 }
