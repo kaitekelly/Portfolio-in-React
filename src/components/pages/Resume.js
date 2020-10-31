@@ -1,54 +1,21 @@
 
 import React from "react";
-// import { Document, Page } from 'react-pdf';
 import { Container } from "reactstrap";
-// import pdf from "./Kathleen_Kelly_Resume_Dev.pdf";
-
-
-/* This is required only if the project file is located 
-inside the app. Otherwise you can use the external link of the pdf file*/
-
+import ReactEmbedGist from 'react-embed-gist';
 
 
 export default function Resume() {
+
+
   return (
     <div className="Resume">
       <Container className="themed-container">
-      <h1>Click link to view my resume</h1>
-      <a href="https://docs.google.com/document/d/1srAfcL5tCjcfR3c9VXBsIIeT3fYwDBi85lHKJk6ZMR0/edit?usp=sharing" target="blank">View Resume</a>
+      <ReactEmbedGist gist="kaitekelly/2982da5372b914e9ba9f421808fa1e8f"/>
+      <h1>Click link to view a pdf of my resume</h1>
+      <a href="https://docs.google.com/document/d/1srAfcL5tCjcfR3c9VXBsIIeT3fYwDBi85lHKJk6ZMR0/edit?usp=sharing" target="blank">View Resume pdf</a>
       </Container>
     </div>
 
 
   );
 }
-
-// import React from 'react';
-  // import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
-
-// Create styles
-// const styles = StyleSheet.create({
-//   page: {
-//     flexDirection: 'row',
-//     backgroundColor: '#E4E4E4'
-//   },
-//   section: {
-//     margin: 10,
-//     padding: 10,
-//     flexGrow: 1
-//   }
-// });
-
-// // Create Document Component
-// const MyDocument = () => (
-//   <Document>
-//     <Page size="A4" style={styles.page}>
-//       <View style={styles.section}>
-//         <Text>Section #1</Text>
-//       </View>
-//       <View style={styles.section}>
-//         <Text>Section #2</Text>
-//       </View>
-//     </Page>
-//   </Document>
-// );
