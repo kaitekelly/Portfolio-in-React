@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Nav, Navbar, Brand } from 'react-bootstrap';
 import "./style.css";
 
 function Navtab(props) {
-  // const location = useLocation();
   return (
     <div>
       <Nav className="nav mr-auto">

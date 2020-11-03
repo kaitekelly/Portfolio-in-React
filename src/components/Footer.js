@@ -1,10 +1,5 @@
 import React from "react";
-// import { Footer } from "react-strap";
 import "../index.css";
-// import "./style.css";
-
-
-
 
 function Footer(props) {
 

@@ -17,5 +17,4 @@ ReactDOM.render(
 // serviceWorker.unregister();
 
 
-// ReactPDF.render(<Resume />, `${__dirname}/example.pdf`);
 
