@@ -57,7 +57,7 @@ function Gallery() {
               </CardText>
               <Row>
               <Col>
-              <Button style={BtnStyle}  href="https://salty-depths-31986.herokuapp.com/" target="blank">
+              <Button style={BtnStyle} href="https://salty-depths-31986.herokuapp.com/" target="blank">
                 Site
               </Button>
               </Col>
@@ -131,12 +131,12 @@ function Gallery() {
               </CardText>
               <Row>
               <Col>
-              <Button href="https://kaites-google-book-search.herokuapp.com/" target="blank">
+              <Button style={BtnStyle} href="https://kaites-google-book-search.herokuapp.com/" target="blank">
                 Site
               </Button>
               </Col>
               <Col>
-              <Button href="https://github.com/kaitekelly/Google-Books-Search" target="blank">
+              <Button style={BtnStyle} href="https://github.com/kaitekelly/Google-Books-Search" target="blank">
                 Repo
               </Button>
               </Col>
@@ -156,12 +156,12 @@ function Gallery() {
               </CardText>
               <Row>
               <Col>
-              <Button href="https://kaitekelly.github.io/WeatherDashboard/" target="blank">
+              <Button style={BtnStyle} href="https://kaitekelly.github.io/WeatherDashboard/" target="blank">
                 Site
               </Button>
               </Col>
               <Col>
-              <Button href="https://github.com/kaitekelly/WeatherDashboard" target="blank">
+              <Button style={BtnStyle} href="https://github.com/kaitekelly/WeatherDashboard" target="blank">
                 Repo
               </Button>
               </Col>
@@ -181,12 +181,12 @@ function Gallery() {
               </CardText>
               <Row>
               <Col>
-              <Button href="https://kaitekelly.github.io/WorkDayScheduler/" target="blank">
+              <Button style={BtnStyle} href="https://kaitekelly.github.io/WorkDayScheduler/" target="blank">
                 Site
               </Button>
               </Col>
               <Col>
-              <Button href="https://github.com/kaitekelly/WorkDayScheduler" target="blank">
+              <Button style={BtnStyle} href="https://github.com/kaitekelly/WorkDayScheduler" target="blank">
                 Repo
               </Button>
               </Col>
@@ -205,12 +205,12 @@ function Gallery() {
               </CardText>
               <Row>
               <Col>
-              <Button href="https://drive.google.com/file/d/1pLqcsBdVXPKg74XMLM74FPH-fgR8WeFq/view" target="blank">
+              <Button style={BtnStyle} href="https://drive.google.com/file/d/1pLqcsBdVXPKg74XMLM74FPH-fgR8WeFq/view" target="blank">
                 Video of App in use
               </Button>
               </Col>
               <Col>
-              <Button href="https://github.com/kaitekelly/CLI-Template-Engine-Team-Roster" target="blank">
+              <Button style={BtnStyle} href="https://github.com/kaitekelly/CLI-Template-Engine-Team-Roster" target="blank">
                 Repo
               </Button>
               </Col>
@@ -231,12 +231,12 @@ function Gallery() {
               </CardText>
               <Row>
               <Col>
-              <Button href="https://nameless-fortress-05511.herokuapp.com/" target="blank">
+              <Button style={BtnStyle} href="https://nameless-fortress-05511.herokuapp.com/" target="blank">
                 Site
               </Button>
               </Col>
               <Col>
-              <Button href="https://github.com/kaitekelly/Burger-Wish" target="blank">
+              <Button style={BtnStyle} href="https://github.com/kaitekelly/Burger-Wish" target="blank">
                 Repo
               </Button>
               </Col>
@@ -255,12 +255,12 @@ function Gallery() {
               </CardText>
               <Row>
               <Col>
-              <Button href="https://expresscilnotetaker.herokuapp.com/" target="blank">
+              <Button style={BtnStyle} href="https://expresscilnotetaker.herokuapp.com/" target="blank">
                 Site
               </Button>
               </Col>
               <Col>
-              <Button href="https://github.com/kaitekelly/Express-Note-Taker" target="blank">
+              <Button style={BtnStyle} href="https://github.com/kaitekelly/Express-Note-Taker" target="blank">
                 Repo
               </Button>
               </Col>
