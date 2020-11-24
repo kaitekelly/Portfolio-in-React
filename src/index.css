@@ -93,6 +93,14 @@ padding-inline-start: 15%;
   padding-left: 5%;
 }
 
+.gitlogo {
+  width: 125pt;
+}
+
+.linkedinlogo {
+  width: 125pt;
+}
+
 p {
   /* color: purple; */
 }

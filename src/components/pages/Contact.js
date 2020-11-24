@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
+import GitHubLogo from "../../assets/GitHub_Logo_White.png";
+import LinkedInLogo from "../../assets/LI-Logo.png"
 
 function Contact() {
 
@@ -9,7 +11,9 @@ function Contact() {
         <Col>
           <h3 id="contact-me"> Email me at: murphy.kaite@gmail.com</h3>
           <a href="https://github.com/kaitekelly" class="contact">
-            Github profile
+            <img src={GitHubLogo} className="gitlogo" alt="GitHub Logo"/>
+            <br></br>
+            {/* Github profile */}
           </a>
           <br></br>
           <br></br>
@@ -17,8 +21,11 @@ function Contact() {
             href="https://www.linkedin.com/in/kaite-kelly-2147802a/"
             class="contact"
           >
-            LinkedIn profile
+            <img src={LinkedInLogo} className="linkedinlogo" alt="LinkedIn Logo" />
+            {/* LinkedIn profile */}
           </a>
+          <br></br>
+          <br></br>
           <p class="contact">Based in Seattle, WA</p>
         </Col>
       </Row>
