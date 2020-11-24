@@ -344,7 +344,7 @@ function Gallery() {
                 <CardTitle style={CardTitleStyle}>Express Note Taker</CardTitle>
                 <CardSubtitle></CardSubtitle>
                 <CardText>
-                  A personal note taker created with Node and Express.
+                  A personal note taker application created to add and delete todo's.
                 </CardText>
                 <CardText>
                 Technologies used: Node.js, NPM's( Express, FileSystem), Javascript, CSS, HTML
