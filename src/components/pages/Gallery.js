@@ -35,6 +35,7 @@ function Gallery() {
     // backgroundColor: "#16697a"
   };
 
+
   return (
     <div className="gallery-container">
       <Row>
@@ -50,6 +51,9 @@ function Gallery() {
               <CardText>
                 A CRUD app that allows me to plan boating trips and search for
                 large vessels I may encounter while in my pleasure craft.
+              </CardText>
+              <CardText>
+                Technologies used: React, Node.js, MySQL, Express, Sequelize, Marine Traffic API
               </CardText>
               <Row>
                 <Col>
@@ -79,10 +83,12 @@ function Gallery() {
             <CardImg width="100%" src={Brewr} alt="Card image cap" />
             <CardBody>
               <CardTitle style={CardTitleStyle}>brewR App</CardTitle>
-              <br></br>
               <CardText>
                 An application for craft beer lovers and breweries to search,
                 favorite, and blog about craft breweries.
+              </CardText>
+              <CardText>
+                Technologies used: Node.js, MySQL, Sequelize, Javascript, Brewerdb API
               </CardText>
               <Row>
                 <Col>
@@ -112,10 +118,12 @@ function Gallery() {
             <CardImg width="100%" src={Gig} alt="Card image cap" />
             <CardBody>
               <CardTitle style={CardTitleStyle}>Find Next Gig App</CardTitle>
-              <br></br>
               <CardText>
                 Find Next Gig an app to find out the next time a band or artist
                 has a gig.
+              </CardText>
+              <CardText>
+                Technologies used: Javascript, CSS, HTML, Bands in Town API, MapBox API
               </CardText>
               <Row>
                 <Col>

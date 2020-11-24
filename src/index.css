@@ -89,7 +89,8 @@ padding-inline-start: 15%;
 }
 
 .card-text {
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
 }
 
 p {
