@@ -152,12 +152,12 @@ function Gallery() {
               <CardTitle>Team Roster</CardTitle>
               <CardSubtitle></CardSubtitle>
               <CardText>
-                A personal note taker created with Node and Express.
+                A Node application for department managers to generate a team roster through the command line.
               </CardText>
-              <Button href="https://expresscilnotetaker.herokuapp.com/" target="blank">
-                Site
+              <Button href="https://drive.google.com/file/d/1pLqcsBdVXPKg74XMLM74FPH-fgR8WeFq/view" target="blank">
+                Video of App in use
               </Button>
-              <Button href="https://github.com/kaitekelly/Express-Note-Taker" target="blank">
+              <Button href="https://github.com/kaitekelly/CLI-Template-Engine-Team-Roster" target="blank">
                 Repo
               </Button>
             </CardBody>
