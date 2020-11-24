@@ -161,6 +161,9 @@ function Gallery() {
                 A react app using google book search api to search and then save
                 books to a mongodb database.
               </CardText>
+              <CardText>
+                Technologies used: React, Javascript, NPM Express, Google Books API
+              </CardText>
               <Row>
                 <Col>
                   <Button
@@ -193,6 +196,9 @@ function Gallery() {
                 A weather dashboard to return forecast information for any city
                 that I search.
               </CardText>
+              <CardText>
+                Technologies used: Javascript, Bootstrap, CSS, HTML, Open Weather API
+              </CardText>
               <Row>
                 <Col>
                   <Button
@@ -224,7 +230,10 @@ function Gallery() {
               <CardTitle style={CardTitleStyle}>Workday Scheduler</CardTitle>
               <CardSubtitle></CardSubtitle>
               <CardText>
-                A work day scheduler and calendar application.
+                A work day scheduler and calendar application to track hourly appointments.
+              </CardText>
+              <CardText>
+                Technologies used: Javascript, CSS, HTML, Moment.js
               </CardText>
               <Row>
                 <Col>
@@ -262,6 +271,9 @@ function Gallery() {
                   A Node application for department managers to generate a team
                   roster through the command line.
                 </CardText>
+                <CardText>
+                Technologies used: Node.js, NPM's( Inquirer, Path, FileSystem), Javascript, CSS, HTML
+              </CardText>
                 <Row>
                   <Col>
                     <Button
@@ -298,6 +310,9 @@ function Gallery() {
                   An application where user can enter and delete burgers they
                   would like to eat to a database.
                 </CardText>
+                <CardText>
+                Technologies used: Node.js, NPM(Inquirer), MySQL, Javascript, CSS, HTML
+              </CardText>
                 <Row>
                   <Col>
                     <Button
@@ -331,6 +346,9 @@ function Gallery() {
                 <CardText>
                   A personal note taker created with Node and Express.
                 </CardText>
+                <CardText>
+                Technologies used: Node.js, NPM's( Express, FileSystem), Javascript, CSS, HTML
+              </CardText>
                 <Row>
                   <Col>
                     <Button
