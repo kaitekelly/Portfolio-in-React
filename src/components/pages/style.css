@@ -14,11 +14,12 @@
     justify-content: center;
    }
 
-.gallery-container{
+/* .gallery-container{
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
-}
+    align-content: center;
+} */
 
 .kaite-name {
     padding-bottom: 15pt;

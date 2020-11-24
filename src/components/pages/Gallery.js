@@ -25,9 +25,16 @@ import "./style.css";
 function Gallery() {
 
   const CardTitleStyle = {
-    color: "#16697a",
+    color: "rgb(23, 23, 56)",
     fontSize: "18pt",
     fontWeight: "bold",
+  }
+
+  const BtnStyle = {
+    display: "flex",
+    alignItem: "center",
+    justifyContent: "center",
+    // backgroundColor: "#16697a"
   }
 
   return (
@@ -48,12 +55,18 @@ function Gallery() {
                 A CRUD app that allows me to plan boating trips and search for
                 large vessels I may encounter while in my pleasure craft.
               </CardText>
-              <Button href="https://salty-depths-31986.herokuapp.com/" target="blank">
+              <Row>
+              <Col>
+              <Button style={BtnStyle}  href="https://salty-depths-31986.herokuapp.com/" target="blank">
                 Site
               </Button>
-              <Button href="https://github.com/kaitekelly/Sound-Vessel-Traffic" target="blank">
+              </Col>
+              <Col>
+              <Button style={BtnStyle} href="https://github.com/kaitekelly/Sound-Vessel-Traffic" target="blank">
                 Repo
               </Button>
+              </Col>
+              </Row>
             </CardBody>
           </Card>
         </Col>
@@ -67,8 +80,14 @@ function Gallery() {
                 An application for craft beer lovers and breweries to search,
                 favorite, and blog about craft breweries.
               </CardText>
-              <Button href="https://brewrs.herokuapp.com/" target="blank">Site</Button>
-              <Button href="https://github.com/JMantis0/brewR" target="blank">Repo</Button>
+              <Row>
+              <Col>
+              <Button style={BtnStyle} href="https://brewrs.herokuapp.com/" target="blank">Site</Button>
+              </Col>
+              <Col>
+              <Button style={BtnStyle} href="https://github.com/JMantis0/brewR" target="blank">Repo</Button>
+              </Col>
+              </Row>
             </CardBody>
           </Card>
         </Col>
@@ -82,12 +101,18 @@ function Gallery() {
                 Find Next Gig an app to find out the next time a band or artist
                 has a gig.
               </CardText>
-              <Button href="https://merkraith.github.io/Band-Tour-Manager/" target="blank">
+              <Row>
+              <Col>
+              <Button style={BtnStyle} href="https://merkraith.github.io/Band-Tour-Manager/" target="blank">
                 Site
               </Button>
-              <Button href="https://github.com/Merkraith/Band-Tour-Manager" target="blank">
+              </Col>
+              <Col>
+              <Button style={BtnStyle} href="https://github.com/Merkraith/Band-Tour-Manager" target="blank">
                 Repo
               </Button>
+              </Col>
+              </Row>
             </CardBody>
           </Card>
         </Col>
@@ -104,12 +129,18 @@ function Gallery() {
                 A react app using google book search api to search and then save
                 books to a mongodb database.
               </CardText>
+              <Row>
+              <Col>
               <Button href="https://kaites-google-book-search.herokuapp.com/" target="blank">
                 Site
               </Button>
+              </Col>
+              <Col>
               <Button href="https://github.com/kaitekelly/Google-Books-Search" target="blank">
                 Repo
               </Button>
+              </Col>
+              </Row>
             </CardBody>
           </Card>
         </Col>
@@ -123,12 +154,18 @@ function Gallery() {
                 A weather dashboard to tell me the forecast for a city that I
                 search.
               </CardText>
+              <Row>
+              <Col>
               <Button href="https://kaitekelly.github.io/WeatherDashboard/" target="blank">
                 Site
               </Button>
+              </Col>
+              <Col>
               <Button href="https://github.com/kaitekelly/WeatherDashboard" target="blank">
                 Repo
               </Button>
+              </Col>
+              </Row>
             </CardBody>
           </Card>
         </Col>
@@ -142,12 +179,18 @@ function Gallery() {
               <CardText>
                 A work day scheduler and calendar application.
               </CardText>
+              <Row>
+              <Col>
               <Button href="https://kaitekelly.github.io/WorkDayScheduler/" target="blank">
                 Site
               </Button>
+              </Col>
+              <Col>
               <Button href="https://github.com/kaitekelly/WorkDayScheduler" target="blank">
                 Repo
               </Button>
+              </Col>
+              </Row>
             </CardBody>
           </Card>
         </Col>
@@ -160,12 +203,18 @@ function Gallery() {
               <CardText>
                 A Node application for department managers to generate a team roster through the command line.
               </CardText>
+              <Row>
+              <Col>
               <Button href="https://drive.google.com/file/d/1pLqcsBdVXPKg74XMLM74FPH-fgR8WeFq/view" target="blank">
                 Video of App in use
               </Button>
+              </Col>
+              <Col>
               <Button href="https://github.com/kaitekelly/CLI-Template-Engine-Team-Roster" target="blank">
                 Repo
               </Button>
+              </Col>
+              </Row>
             </CardBody>
           </Card>
         </Col>
@@ -180,12 +229,18 @@ function Gallery() {
                 An application where user can enter and delete burgers they
                 would like to eat to a database.
               </CardText>
+              <Row>
+              <Col>
               <Button href="https://nameless-fortress-05511.herokuapp.com/" target="blank">
                 Site
               </Button>
+              </Col>
+              <Col>
               <Button href="https://github.com/kaitekelly/Burger-Wish" target="blank">
                 Repo
               </Button>
+              </Col>
+              </Row>
             </CardBody>
           </Card>
         </Col>
@@ -198,12 +253,18 @@ function Gallery() {
               <CardText>
                 A personal note taker created with Node and Express.
               </CardText>
+              <Row>
+              <Col>
               <Button href="https://expresscilnotetaker.herokuapp.com/" target="blank">
                 Site
               </Button>
+              </Col>
+              <Col>
               <Button href="https://github.com/kaitekelly/Express-Note-Taker" target="blank">
                 Repo
               </Button>
+              </Col>
+              </Row>
             </CardBody>
           </Card>
         </Col>

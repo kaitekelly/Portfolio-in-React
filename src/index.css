@@ -14,9 +14,9 @@ code {
 }
 
 .nav {
-  font-size: 14pt;
+  font-size: 16pt;
   background-color: rgb(207, 212, 197);
-
+  color: rgb(23, 23, 56)
 } 
 
 .about-me {
@@ -37,10 +37,16 @@ padding-inline-start: 15%;
   
 }
 
-
+.gallery-container{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* align-content: center; */
+}
 
 .button {
-  color: red;
+  /* color: red; */
+  /* align-items: center; */
 }
 
 .footer{
@@ -79,7 +85,11 @@ padding-inline-start: 15%;
 
 .card-title {
   text-align: center;
-  color: purple;
+  
+}
+
+.card-text {
+  text-align: center;
 }
 
 p {
