@@ -32,7 +32,7 @@ murphy.kaite@gmail.com
 
 # Contributions: 
 Contributor, Kait Kelly. View github profile through badge above. 
-Technology used: React, Node.js, Bootstrap, HTML, Javascript, CSS, npm react-embed-gist, git gist, google docs
+Technology used: React, Node.js, Bootstrap, HTML, Javascript, CSS, NPM's(react-embed-gist, react-copy-to-clipboard) git gist, google docs
 
 # Tests: 
 ⚙️ No tests have been performed on this application. 

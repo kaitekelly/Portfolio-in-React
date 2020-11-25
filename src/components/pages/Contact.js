@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
+// import {CopyToClipboard} from 'react-copy-to-clipboard';
 import GitHubLogo from "../../assets/GitHub_Logo_White.png";
 import LinkedInLogo from "../../assets/LI-Logo.png"
 
@@ -9,8 +10,10 @@ function Contact() {
     <Container className="themed-container">
       <Row>
         <Col>
-          <h3 id="contact-me"> Email me at: murphy.kaite@gmail.com</h3>
+          <h3 id="contact-me">murphy.kaite@gmail.com</h3>
+          {/* <p>Connect on</p> */}
           <a href="https://github.com/kaitekelly" class="contact">
+
             <img src={GitHubLogo} className="gitlogo" alt="GitHub Logo"/>
             <br></br>
             {/* Github profile */}
