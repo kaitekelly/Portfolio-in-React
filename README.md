@@ -27,12 +27,16 @@ Javascript, HTML, CSS, Bootstrap
 murphy.kaite@gmail.com
 
 
-# Screenshot of application in use:
+# Screenshots of portfolio:
+<img width="1623" alt="Screen Shot 2020-11-24 at 7 50 53 PM" src="https://user-images.githubusercontent.com/61023907/100181401-fb394400-2e8e-11eb-89c5-f985dcc4ebc5.png">
+<img width="1622" alt="Screen Shot 2020-11-24 at 7 51 07 PM" src="https://user-images.githubusercontent.com/61023907/100181416-042a1580-2e8f-11eb-87b0-b2e152aaaa62.png">
+<img width="1621" alt="Screen Shot 2020-11-24 at 7 51 34 PM" src="https://user-images.githubusercontent.com/61023907/100181433-0e4c1400-2e8f-11eb-8cf7-7faa26b72ab3.png">
+<img width="1621" alt="Screen Shot 2020-11-24 at 7 51 47 PM" src="https://user-images.githubusercontent.com/61023907/100181441-14da8b80-2e8f-11eb-87d2-d9fe73f69052.png">
 
 
 # Contributions: 
-Contributor, Kait Kelly. View github profile through badge above. 
-Technology used: React, Node.js, Bootstrap, HTML, Javascript, CSS, NPM's(react-embed-gist, react-copy-to-clipboard) git gist, google docs
+Contributor, Kaite Kelly. View github profile through badge above. 
+Technology used: React, Node.js, Bootstrap, HTML, Javascript, CSS, NPM's(react-embed-gist) git gist, google docs
 
 # Tests: 
 ⚙️ No tests have been performed on this application. 
