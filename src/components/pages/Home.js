@@ -12,11 +12,11 @@ function Home() {
       <Container className="themed-container">
         <div>
           <Row>
-            <Col xs="6">
+            <Col s="6">
 
               <img src={kaitepic} alt="picture of kaite kelly" />
             </Col>
-            <Col xs="6">
+            <Col s="6">
               <h2 className="kaite-name">Kaite Kelly</h2>
               <p className="bio">
               Creative, collaborative and detail oriented Full Stack Web Developer with a passion 
