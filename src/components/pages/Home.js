@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import kaitepic from "./IMG_0414_a.jpeg";
-
+import Image from 'react-bootstrap/Image'
 
 import "./style.css";
 
@@ -12,11 +12,11 @@ function Home() {
       <Container className="themed-container">
         <div>
           <Row>
-            <Col s="6">
+            <Col md="6">
 
-              <img src={kaitepic} alt="picture of kaite kelly" />
+              <Image src={kaitepic} alt="picture of kaite kelly" fluid />
             </Col>
-            <Col s="6">
+            <Col md="6">
               <h2 className="kaite-name">Kaite Kelly</h2>
               <p className="bio">
               Creative, collaborative and detail oriented Full Stack Web Developer with a passion 
@@ -29,7 +29,7 @@ function Home() {
             </Col>
           </Row>
           <Row className="tech-skills">
-            <Col s="8">
+            <Col md="8">
             <h3>Technical Skills</h3>
             <ul>
             <li>Web Technologies: React.js, JavaScript, HTML, CSS, APIs, JSON, RESTful API’s </li>
