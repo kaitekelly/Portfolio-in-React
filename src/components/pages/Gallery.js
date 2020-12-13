@@ -39,7 +39,7 @@ function Gallery() {
   return (
     <div className="gallery-container">
       <Row>
-        <Col xs="6" sm="4">
+        <Col sm="4">
           <Card>
             <br></br>
             <br></br>
@@ -78,7 +78,7 @@ function Gallery() {
             </CardBody>
           </Card>
         </Col>
-        <Col xs="6" sm="4">
+        <Col sm="4">
           <Card>
             <CardImg width="100%" src={Brewr} alt="Card image cap" />
             <CardBody>
@@ -151,7 +151,7 @@ function Gallery() {
       </Row>
       <br></br>
       <Row>
-        <Col xs="6" sm="4">
+        <Col sm="4">
           <Card>
             <CardImg width="100%" src={BookSrch} alt="google book search" />
             <CardBody>
@@ -187,7 +187,7 @@ function Gallery() {
             </CardBody>
           </Card>
         </Col>
-        <Col xs="6" sm="4">
+        <Col sm="4">
           <Card>
             <CardImg width="100%" src={Weather} alt="Card image cap" />
             <CardBody>
@@ -223,7 +223,7 @@ function Gallery() {
           </Card>
         </Col>
         {/* <br></br> */}
-        <Col xs="6" sm="4">
+        <Col sm="4">
           <Card>
             <CardImg width="100%" src={Work} alt="Card image cap" />
             <CardBody>
@@ -261,7 +261,7 @@ function Gallery() {
         <Row />
         <br></br>
         <Row>
-          <Col xs="6" sm="4">
+          <Col sm="4">
             <Card>
               <CardImg width="100%" src={Team} alt="Card image cap" />
               <CardBody>
@@ -298,7 +298,7 @@ function Gallery() {
             </Card>
           </Col>
 
-          <Col xs="6" sm="4">
+          <Col sm="4">
             <Card>
               <CardImg width="100%" src={Brgr} alt="Card image cap" />
               <CardBody>
