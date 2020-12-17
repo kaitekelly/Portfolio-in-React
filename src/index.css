@@ -59,8 +59,7 @@ padding-inline-start: 15%;
   left: 0;
   width: 100%;
   text-align: center;
-  font-size: 24;
-  /* color: rgb(23, 23, 56); */
+  font-size: 16pt;
   color: rgb(23, 23, 56);
 }
 
@@ -78,10 +77,6 @@ padding-inline-start: 15%;
   font-family: Arial;
   text-align: center;
   margin-top: 0px;
-}
-
-.pdf {
-
 }
 
 .card-title {
@@ -102,6 +97,3 @@ padding-inline-start: 15%;
   width: 125pt;
 }
 
-p {
-  /* color: purple; */
-}
