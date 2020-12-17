@@ -2,7 +2,8 @@
     text-align: left;
     padding-right: 15%;
     color: aqua;
-    font-size: 14pt;
+    font-size: 15pt;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .themed-container {
@@ -24,6 +25,7 @@
 .kaite-name {
     padding-bottom: 15pt;
     text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .contact {
