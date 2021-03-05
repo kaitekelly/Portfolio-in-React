@@ -17,7 +17,7 @@ https://portfolio-in-react.herokuapp.com/
 🚀 https://github.com/kaitekelly/Portfolio-in-React
 
 # Linked in Profile:
-https://www.linkedin.com/in/kaite-kelly-2147802a/
+https://kaite-kelly-portfolio.herokuapp.com/
 
 # Description:
 💻 A portfolio of Kaite Kelly's web development work. Technologies and languages used in projects in the portfolio include: React, Node.js, Express, Sequelize, MongoDB, MySQL, 
