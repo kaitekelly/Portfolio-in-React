@@ -53,6 +53,7 @@ padding-inline-start: 15%;
 .footer{
   /* margin-top: 1rem; */
   padding: 1rem;
+  paddint-top: 40pt;
   background-color: rgb(207, 212, 197);
   position: fixed;
   bottom: 0;
@@ -95,5 +96,9 @@ padding-inline-start: 15%;
 
 .linkedinlogo {
   width: 125pt;
+}
+
+.octocat {
+  height: 30pt;
 }
 

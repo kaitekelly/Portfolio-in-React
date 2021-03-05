@@ -32,9 +32,9 @@ function Home() {
             <Col md="8">
             <h3>Technical Skills</h3>
             <ul>
-            <li>Web Technologies: React.js, JavaScript, HTML, CSS, APIs, JSON, RESTful API’s </li>
-            <li> Back End: Node.js, Express, MongoDB, MySQL, Sequel</li>
-            <li> Project Tools: GIT, Github, Visual Studio Code, npm, Command Line</li>
+            <li>Web Technologies: React, JavaScript, HTML, CSS, JSON, RESTful API’s </li>
+            <li> Back End: Node.js, Express, MongoDB, MySQL, Sequelize</li>
+            <li> Project Tools: Github, VS Code, npm, the command line</li>
             </ul>
 
             </Col>
