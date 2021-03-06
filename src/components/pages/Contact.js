@@ -29,7 +29,7 @@ function Contact() {
           </a>
           <br></br>
           <br></br>
-          <p class="contact">Based in Seattle, WA</p>
+          <p class="contact">Based in the Seattle area</p>
         </Col>
       </Row>
     </Container>

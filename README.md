@@ -10,7 +10,7 @@ kaitekelly 👩🏻‍💻
 Portfolio-in-React
 
 # Link to Deployed Site:
-https://portfolio-in-react.herokuapp.com/
+https://kaite-kelly-portfolio.herokuapp.com/
 
 
 # Link to Repo:
