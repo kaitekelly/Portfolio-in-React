@@ -5,7 +5,7 @@ import "./style.css";
 function Navtab(props) {
   return (
     <div>
-      <Nav className="nav mr-auto">
+      <Nav className="nav mr-auto nav-update">
         <Nav.Link href="/" className="link">Home</Nav.Link> 
         <Nav.Link href="/gallery" className="link">Projects</Nav.Link>
         <Nav.Link href="/resume" className="link">Resume</Nav.Link> 

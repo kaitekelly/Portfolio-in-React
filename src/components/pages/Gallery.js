@@ -119,8 +119,8 @@ function Gallery() {
             <CardBody>
               <CardTitle style={CardTitleStyle}>Find Next Gig App</CardTitle>
               <CardText>
-                Find Next Gig an app to find out the next time a band or artist
-                has a gig.
+                Find Next Gig is an app to find out the next time a band or musician
+                is playing a show.
               </CardText>
               <CardText>
                 Technologies used: Javascript, CSS, HTML, Bands in Town API, MapBox API
@@ -158,8 +158,8 @@ function Gallery() {
               <CardTitle style={CardTitleStyle}>Google Book Search</CardTitle>
               <CardSubtitle></CardSubtitle>
               <CardText>
-                A react app using google book search api to search and then save
-                books to a mongodb database.
+                A React app using the Google book search API to search and save
+                books to a MongoDB database.
               </CardText>
               <CardText>
                 Technologies used: React, Javascript, NPM Express, Google Books API
@@ -193,8 +193,7 @@ function Gallery() {
             <CardBody>
               <CardTitle style={CardTitleStyle}>Weather Dashboard</CardTitle>
               <CardText>
-                A weather dashboard to return forecast information for any city
-                that I search.
+                Search the daily forecast for any city.
               </CardText>
               <CardText>
                 Technologies used: Javascript, Bootstrap, CSS, HTML, Open Weather API
@@ -307,8 +306,7 @@ function Gallery() {
                 </CardTitle>
                 <CardSubtitle></CardSubtitle>
                 <CardText>
-                  An application where user can enter and delete burgers they
-                  would like to eat to a database.
+                  An app to assist diners in selecting and narrowing down which Burger to order.
                 </CardText>
                 <CardText>
                 Technologies used: Node.js, NPM(Inquirer), MySQL, Javascript, CSS, HTML
