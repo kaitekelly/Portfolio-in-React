@@ -84,7 +84,7 @@ function Gallery() {
             <CardBody>
               <CardTitle style={CardTitleStyle}>brewR App</CardTitle>
               <CardText>
-                An application for craft beer lovers and breweries to search,
+                An app for craft beer lovers and breweries to search,
                 favorite, and blog about craft breweries.
               </CardText>
               <CardText>
@@ -158,8 +158,7 @@ function Gallery() {
               <CardTitle style={CardTitleStyle}>Google Book Search</CardTitle>
               <CardSubtitle></CardSubtitle>
               <CardText>
-                A React app using the Google book search API to search and save
-                books to a MongoDB database.
+              A React app utilizing the Google Books API and MongoDB to search and save books.
               </CardText>
               <CardText>
                 Technologies used: React, Javascript, NPM Express, Google Books API

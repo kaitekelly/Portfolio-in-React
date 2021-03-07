@@ -14,7 +14,9 @@
 .themed-container {
     margin-top: 5%;
     margin-bottom: 5%;
+
 }
+
 
 .card-title {
     justify-content: center;
@@ -30,7 +32,12 @@
 .kaite-name {
     padding-bottom: 15pt;
     text-align: left;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Fjalla One', sans-serif;     */
+    /* font-family: 'Fjalla One', sans-serif; */
+    /* font-family: 'Fjalla One', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Fjalla One', sans-serif; */
+    font-family: 'Prompt', sans-serif;
 }
 
 .contact {
