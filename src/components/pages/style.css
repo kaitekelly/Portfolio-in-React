@@ -30,7 +30,7 @@
 } */
 
 .kaite-name {
-    padding-bottom: 15pt;
+    padding-top: 15pt;
     text-align: left;
     /* font-family: 'Fjalla One', sans-serif;     */
     /* font-family: 'Fjalla One', sans-serif; */
@@ -38,6 +38,7 @@
     font-family: 'Comfortaa', cursive;
     font-family: 'Fjalla One', sans-serif; */
     font-family: 'Prompt', sans-serif;
+    font-size: 30pt;
 }
 
 .contact {
