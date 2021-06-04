@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image'
 
 import "./style.css";
 
-function Home() {
+const Home = () => {
 
   return (
     <div>

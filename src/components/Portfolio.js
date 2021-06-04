@@ -8,9 +8,6 @@ import Footer from "./Footer";
 import Gallery from "./pages/Gallery";
 
 const Portfolio = () => {
-  // state = {
-  //   currentPage: "Home",
-  // };
 
   return (
     <Router>

@@ -21,7 +21,7 @@ import BookSrch from "../../assets/google-saved-books.png";
 import SoundVes from "../../assets/sound-vessel-traffic.png";
 import "./style.css";
 
-function Gallery() {
+const Gallery = () => {
   const CardTitleStyle = {
     color: "rgb(23, 23, 56)",
     fontSize: "18pt",

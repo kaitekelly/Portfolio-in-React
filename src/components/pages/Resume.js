@@ -4,7 +4,7 @@ import { Container } from "reactstrap";
 import ReactEmbedGist from 'react-embed-gist';
 
 
-export default function Resume() {
+const Resume = () => {
 
 
   return (
@@ -16,3 +16,5 @@ export default function Resume() {
     </div>
   );
 }
+
+export default Resume;
