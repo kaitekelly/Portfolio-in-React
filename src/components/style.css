@@ -18,12 +18,30 @@ body {
   font-size: 24pt;
   } 
 
-  /* .nav {
-    color: blueviolet;
-  } */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16pt;
+    background-color: rgb(207, 212, 197);
+    color: rgb(23, 23, 56)
+  } 
 
   .nav-update {
     font-size: 24pt;
+  }
+
+  .footer{
+    /* margin-top: 1rem; */
+    padding: 1rem;
+    /* padding-top: 40pt; */
+    background-color: rgb(207, 212, 197);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(23, 23, 56);
   }
 
  

@@ -1,18 +1,41 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
+import PropTypes from 'prop-types';
+
+import { Link } from 'react-router-dom';
 import "./style.css";
 
-function Navtab(props) {
+const Navbar = ({ name }) => {
   return (
+    <nav className="navbar mr-auto nav-update">
+      <h1>
+        {name}
+      </h1>
     <div>
-      <Nav className="nav mr-auto nav-update">
-        <Nav.Link href="/" className="link">Home</Nav.Link> 
-        <Nav.Link href="/gallery" className="link">Projects</Nav.Link>
-        <Nav.Link href="/resume" className="link">Resume</Nav.Link> 
-        <Nav.Link href="/contact" className="link">Contact</Nav.Link>
-      </Nav>
+      <ul>
+        <li>
+        <Link to="/" className="link">Home</Link> 
+        </li>
+        <li>
+        <Link to="/gallery" className="link">Projects</Link>
+        </li>
+        <li>
+        <Link to="/resume" className="link">Resume</Link> 
+        </li>
+        <li>
+        <Link to="/contact" className="link">Contact</Link>
+        </li>
+        </ul>
     </div>
+    </nav>
   );
 }
 
-export default Navtab;
+Navbar.defaultProps = {
+  name: 'Kaite Kelly'
+}
+
+Navbar.propTypes = {
+  name: PropTypes.string.isRequired
+}
+
+export default Navbar;

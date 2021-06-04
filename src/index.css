@@ -2,9 +2,7 @@
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,11 +12,11 @@ code {
     monospace;
 }
 
-.nav {
+/* .nav {
   font-size: 16pt;
   background-color: rgb(207, 212, 197);
   color: rgb(23, 23, 56)
-} 
+}  */
 
 .about-me {
   background-color: #16697a;
@@ -30,13 +28,6 @@ padding-inline-start: 15%;
 }
 
 
-.nav-item {
-  
-}
-
-.projectCard {
-  
-}
 
 .gallery-container{
   margin-top: 5%;
@@ -45,15 +36,10 @@ padding-inline-start: 15%;
   /* align-content: center; */
 }
 
-.button {
-  /* color: red; */
-  /* align-items: center; */
-}
 
-.footer{
-  /* margin-top: 1rem; */
+
+/* .footer{
   padding: 1rem;
-  /* padding-top: 40pt; */
   background-color: rgb(207, 212, 197);
   position: fixed;
   bottom: 0;
@@ -62,14 +48,14 @@ padding-inline-start: 15%;
   text-align: center;
   font-size: 16pt;
   color: rgb(23, 23, 56);
-}
+} */
 
-.footer-type {
+/* .footer-type {
   justify-content: center;
   align-items: center;
   font-size: 24;
   color: rgb(23, 23, 56);
-}
+} */
 
 .container {
   background-color: #282c34;
