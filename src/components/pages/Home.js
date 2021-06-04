@@ -19,7 +19,7 @@ function Home() {
             <Col md="6">
               <h2 className="kaite-name">Kaite Kelly</h2>
               <p className="bio">
-              Creative, collaborative and detail oriented Full Stack Web Developer with a passion 
+              Creative, collaborative and detail-oriented Full Stack Web Developer with a passion 
               for integrating technologies to solve problems and improve upon existing 
               methods. Experience leveraging background in digital marketing and fashion design
               to provide unique perspectives on how end-users interact with web applications. ​

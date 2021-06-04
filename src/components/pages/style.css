@@ -6,7 +6,6 @@
 .bio {
     text-align: left;
     padding-right: 15%;
-    /* color: aqua; */
     font-size: 15pt;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -22,21 +21,9 @@
     justify-content: center;
    }
 
-/* .gallery-container{
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    align-content: center;
-} */
-
 .kaite-name {
     padding-top: 15pt;
     text-align: left;
-    /* font-family: 'Fjalla One', sans-serif;     */
-    /* font-family: 'Fjalla One', sans-serif; */
-    /* font-family: 'Fjalla One', sans-serif;
-    font-family: 'Comfortaa', cursive;
-    font-family: 'Fjalla One', sans-serif; */
     font-family: 'Prompt', sans-serif;
     font-size: 30pt;
 }
@@ -69,7 +56,6 @@
 
 h3 {
     font-size: 24pt;
-    /* color: crimson; */
 }
 
 li {

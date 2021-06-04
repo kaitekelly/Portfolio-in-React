@@ -1,19 +1,11 @@
-import React from 'react';
-import './App.css';
-import Portfolio from './components/PortfolioContainer';
+import React from "react";
+import "./App.css";
+import Portfolio from "./components/PortfolioContainer";
 
 export default function App() {
-    return (
-        <div>
-        <Portfolio />
-    
-        </div>
-    )
-      
+  return (
+    <div>
+      <Portfolio />
+    </div>
+  );
 }
-
-
-
-
-
-

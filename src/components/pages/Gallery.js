@@ -32,7 +32,6 @@ function Gallery() {
     display: "flex",
     alignItem: "center",
     justifyContent: "center",
-    // backgroundColor: "#16697a"
   };
 
 

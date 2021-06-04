@@ -11,12 +11,9 @@ function Contact() {
       <Row>
         <Col>
           <h3 id="contact-me">murphy.kaite@gmail.com</h3>
-          {/* <p>Connect on</p> */}
           <a href="https://github.com/kaitekelly" class="contact">
-
-            <img src={GitHubLogo} className="gitlogo" alt="GitHub Logo"/>
+           <img src={GitHubLogo} className="gitlogo" alt="GitHub Logo"/>
             <br></br>
-            {/* Github profile */}
           </a>
           <br></br>
           <br></br>
@@ -25,7 +22,6 @@ function Contact() {
             class="contact"
           >
             <img src={LinkedInLogo} className="linkedinlogo" alt="LinkedIn Logo" />
-            {/* LinkedIn profile */}
           </a>
           <br></br>
           <br></br>
