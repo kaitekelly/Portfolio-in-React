@@ -5,15 +5,18 @@
 
 .bio {
     text-align: left;
-    padding-right: 15%;
-    font-size: 15pt;
+    padding-right: 10%;
+    padding-top: 5%;
+    font-size: 16pt;
     font-family: 'Source Sans Pro', sans-serif;
+    word-wrap: normal;
+    line-height: 1.6;
 }
 
 .themed-container {
     margin-top: 5%;
     margin-bottom: 5%;
-
+    border-radius: 5px;
 }
 
 
@@ -21,12 +24,16 @@
     justify-content: center;
    }
 
-.kaite-name {
+/* .kaite-name {
     padding-top: 15pt;
     text-align: left;
     font-family: 'Prompt', sans-serif;
     font-size: 30pt;
-}
+} */
+
+/* .card {
+    box-shadow: 0 10px 10px 0 #282c34;
+} */
 
 .contact {
     font-size: 18pt;
@@ -60,4 +67,8 @@ h3 {
 
 li {
     font-size: 14pt;
+}
+
+img {
+    border-radius: 3px;
 }

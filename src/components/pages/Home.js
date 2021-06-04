@@ -14,10 +14,10 @@ function Home() {
           <Row>
             <Col md="6">
 
-              <Image src={kaitepic} alt="picture of kaite kelly" fluid />
+              <Image src={kaitepic} alt="picture of kaite kelly" classname="image" />
             </Col>
             <Col md="6">
-              <h2 className="kaite-name">Kaite Kelly</h2>
+              {/* <h2 className="kaite-name"></h2> */}
               <p className="bio">
               Creative, collaborative and detail-oriented Full Stack Web Developer with a passion 
               for integrating technologies to solve problems and improve upon existing 
