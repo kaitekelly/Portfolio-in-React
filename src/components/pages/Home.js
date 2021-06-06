@@ -13,7 +13,7 @@ const Home = () => {
           <Row>
             <Col md="6">
 
-              <Image src={kaitepic} alt="picture of kaite kelly" classname="kaite-pic" />
+              <Image src={kaitepic} alt="picture of kaite kelly" id="kaite-pic" />
             </Col>
             <Col md="6">
               {/* <h2 className="kaite-name"></h2> */}
