@@ -1,7 +1,9 @@
 import React from "react";
-import "../index.css";
-import "./style.css";
-import Octocat from "./Octocat.png";
+// import "../../src";
+// import "../../style.css";
+import "../../index.css";
+import Octocat from "../../assets/Octocat.png";
+import "../../components/style.css";
 
 const Footer = () => {
   return (

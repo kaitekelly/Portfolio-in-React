@@ -1,75 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Global Styles */
+:root {
+ 
+  --primary-color: #dc3545;
+  --dark-color: #333333;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
 * {
-    font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
 
 }
 
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+
 .bio {
-    text-align: left;
-    padding-right: 10%;
-    padding-top: 5%;
-    font-size: 16pt;
-    font-family: 'Source Sans Pro', sans-serif;
-    word-wrap: normal;
-    line-height: 1.6;
+  text-align: left;
+  padding-right: 10%;
+  padding-top: 5%;
+  font-size: 16pt;
+  word-wrap: normal;
+  line-height: 1.6;
 }
 
 .themed-container {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border-radius: 5px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  /* border-radius: 5px; */
+  /* box-shadow: 0 0 3px #282c34; */
+}
+
+.card {
+  box-shadow: 0 0 2px #282c34;
+
+}
+
+.card-title {
+  justify-content: center;
 }
 
 
-.card-title {
-    justify-content: center;
-   }
 
-/* .kaite-name {
-    padding-top: 15pt;
-    text-align: left;
-    font-family: 'Prompt', sans-serif;
-    font-size: 30pt;
-} */
-
-/* .card {
-    box-shadow: 0 10px 10px 0 #282c34;
-} */
+.resume-pdf {
+  font-size: 20pt;
+  border-radius: 3px;
+  box-shadow: 0 0 3px #282c34;
+}
 
 .contact {
-    font-size: 18pt;
-    padding: 20pt;
+  font-size: 18pt;
+  padding: 20pt;
 }
 
 #contact-me {
-    padding: 20pt;
-    font-size: 24pt;
+  padding: 10pt;
+  margin-top: 20px;
+  /* margin-bottom: 25px; */
+  font-size: 24pt;
+  border-radius: 5px;
+}
+
+#githublogo {
+  margin-top: 25px;
+}
+
+.gallery-container{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+/* Copy email to clipboard */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+#email-small {
+  margin-top: 0px;
 }
 
 .btn-secondary {
-    margin: 4%;
-    text-align: center;
-    
+  margin: 4%;
+  text-align: center;
 }
 
 .tech-skills {
-    text-align: left;
-    padding-left: 6%;
-    padding-top: 4%;
-    font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-left: 6%;
+  padding-top: 4%;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  margin: 0;
 }
 
-.resume-pdf {
-    font-size: 20pt;
-}
+
 
 h3 {
-    font-size: 24pt;
+  font-size: 24pt;
 }
 
 li {
-    font-size: 14pt;
+  font-size: 14pt;
+}
+
+.kaite-pic {
+  outline: 2px solid #282c34;
 }
 
 img {
-    border-radius: 3px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #282c34;
+}
+
+.linkedinlogo {
+  width: 125pt;
+  padding: 15pt;
 }

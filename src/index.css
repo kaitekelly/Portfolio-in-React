@@ -18,17 +18,6 @@ code {
   color: rgb(23, 23, 56)
 }  */
 
-.about-me {
-  background-color: #16697a;
-}
-
-.projects-container {
-margin: 10%;
-padding-inline-start: 15%;
-}
-
-
-
 .gallery-container{
   margin-top: 5%;
   margin-left: 5%;
@@ -38,53 +27,11 @@ padding-inline-start: 15%;
 
 
 
-/* .footer{
-  padding: 1rem;
-  background-color: rgb(207, 212, 197);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 16pt;
-  color: rgb(23, 23, 56);
-} */
 
-/* .footer-type {
-  justify-content: center;
-  align-items: center;
-  font-size: 24;
-  color: rgb(23, 23, 56);
-} */
 
-.container {
-  background-color: #282c34;
-  color: white;
-  padding: 40px;
-  font-family: Arial;
-  text-align: center;
-  margin-top: 0px;
-}
 
-.card-title {
-  text-align: center;
-  
-}
 
-.card-text {
-  text-align: left;
-  padding-left: 5%;
-}
 
-.gitlogo {
-  width: 125pt;
-}
 
-.linkedinlogo {
-  width: 125pt;
-}
 
-.octocat {
-  height: 30pt;
-}
 

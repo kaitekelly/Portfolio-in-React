@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import kaitepic from "./IMG_0414_a.jpeg";
 import Image from 'react-bootstrap/Image'
-
 import "./style.css";
 
 const Home = () => {
@@ -14,7 +13,7 @@ const Home = () => {
           <Row>
             <Col md="6">
 
-              <Image src={kaitepic} alt="picture of kaite kelly" classname="image" />
+              <Image src={kaitepic} alt="picture of kaite kelly" classname="kaite-pic" />
             </Col>
             <Col md="6">
               {/* <h2 className="kaite-name"></h2> */}
