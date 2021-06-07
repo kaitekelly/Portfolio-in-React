@@ -2,7 +2,8 @@ import React, { useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import GitHubLogo from "../../assets/GitHub_Logo.png";
 import LinkedInLogo from "../../assets/LI-Logo.png";
-import "./style.css";
+import "../../components/style.css";
+
 
 const Contact = () => {
   const copyEmail = () => {

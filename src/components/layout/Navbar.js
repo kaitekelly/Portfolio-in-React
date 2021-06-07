@@ -6,10 +6,10 @@ import "../../components/style.css";
 const Navbar = ({ name }) => {
   return (
     <nav className="navbar mr-auto nav-update">
-      <h1>
+      <h1 id="nav-name">
         {name}
       </h1>
-    <div>
+    <div id="primary-color">
       <ul>
         <li>
         <Link to="/" className="link">About</Link> 

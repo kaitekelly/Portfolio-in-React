@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "reactstrap";
 import ReactEmbedGist from "react-embed-gist";
+import "../../components/style.css";
 
 const Resume = () => {
   return (

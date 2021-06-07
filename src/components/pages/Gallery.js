@@ -19,7 +19,8 @@ import Express from "../../assets/express-note-taker-image.jpg";
 import Team from "../../assets/team-roster-image.jpg";
 import BookSrch from "../../assets/google-saved-books.png";
 import SoundVes from "../../assets/sound-vessel-traffic.png";
-import "./style.css";
+import "../../components/style.css";
+
 
 const Gallery = () => {
   const CardTitleStyle = {
@@ -36,6 +37,7 @@ const Gallery = () => {
 
 
   return (
+    
     <div className="gallery-container">
       <Row>
         <Col sm="4">

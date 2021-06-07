@@ -6,7 +6,8 @@ import Navbar from "./components/layout/Navbar";
 import Home from "./components/pages/Home";
 import Footer from "./components/layout/Footer";
 import Gallery from "./components/pages/Gallery";
-import "./App.css";
+import "../src/components/style.css";
+// import "./App.css";
 
 const App =() => {
   return (

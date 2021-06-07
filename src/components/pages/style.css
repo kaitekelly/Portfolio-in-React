@@ -1,42 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
 
 /* Global Styles */
-:root {
+/* :root {
  
-  --primary-color: #dc3545;
-  --dark-color: #333333;
-  --light-color: #f4f4f4;
-  --danger-color: #dc3545;
-  --success-color: #28a745;
-}
+  --primary-color: #ff5a5f;
+  --dark-color: #0b3954;
+  --light-color: #bfd7ea;
+  --danger-color: #c81d25;
+  --success-color: #087e8b;
+} */
 
-* {
+/* * {
   box-sizing: border-box;
   font-family: "Source Sans Pro", sans-serif;
 
-}
+} */
 
-body {
+/* body {
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
-  color: #333;
-}
+  /* background-color: var(--light-color); */
+/* } */ 
 
-a {
+/* this is an example, not for the project. ends after a:hover */
+/* a {
   color: var(--primary-color);
   text-decoration: none;
 }
 
 a:hover {
   color: #666;
+} */
+/* 
+.background-color {
+  background-color: var(--primary-colorr);
 }
 
+#nav-name {
+  background-color: var(--primary-color);
 
+}
 .bio {
   text-align: left;
   padding-right: 10%;
-  padding-top: 5%;
+  padding-top: 15px;
   font-size: 16pt;
   word-wrap: normal;
   line-height: 1.6;
@@ -45,14 +52,9 @@ a:hover {
 .themed-container {
   margin-top: 5%;
   margin-bottom: 5%;
-  /* border-radius: 5px; */
-  /* box-shadow: 0 0 3px #282c34; */
-}
-
-.card {
-  /* box-shadow: 0 0 2px #282c34; */
 
 }
+
 
 .card-title {
   justify-content: center;
@@ -74,7 +76,6 @@ a:hover {
 #contact-me {
   padding: 10pt;
   margin-top: 20px;
-  /* margin-bottom: 25px; */
   font-size: 24pt;
   border-radius: 5px;
 }
@@ -84,13 +85,12 @@ a:hover {
 }
 
 .gallery-container{
-    margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
   }
-
+ */
 /* Copy email to clipboard */
-.tooltip {
+/* .tooltip {
   position: relative;
   display: inline-block;
 }
@@ -127,8 +127,8 @@ a:hover {
   visibility: visible;
   opacity: 1;
 }
-
-#email-small {
+ */
+/* #email-small {
   margin-top: 0px;
 }
 
@@ -141,7 +141,6 @@ a:hover {
   text-align: left;
   padding-left: 6%;
   padding-top: 4%;
-  /* font-family: "Source Sans Pro", sans-serif; */
   margin: 0;
 }
 
@@ -149,10 +148,12 @@ a:hover {
 
 h3 {
   font-size: 24pt;
+  
 }
 
 li {
   font-size: 14pt;
+  background-color: var(--light-color);
 }
 
 #kaite-pic {
@@ -167,4 +168,4 @@ img {
 .linkedinlogo {
   width: 125pt;
   padding: 15pt;
-}
+} */

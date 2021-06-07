@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import kaitepic from "./IMG_0414_a.jpeg";
 import Image from 'react-bootstrap/Image'
-import "./style.css";
+import "../../components/style.css";
+
 
 const Home = () => {
 
   return (
-    <div>
+    <div  className="background-color">
       <Container className="themed-container">
         <div>
           <Row>
