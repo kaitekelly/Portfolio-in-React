@@ -10,7 +10,7 @@ const Navbar = ({ name }) => {
         {name}
       </h1>
     <div id="primary-color">
-      <ul>
+      <ul className="nav-links">
         <li>
         <Link to="/" className="link">About</Link> 
         </li>

@@ -39,6 +39,7 @@ const Gallery = () => {
   return (
     
     <div className="gallery-container">
+      <div class="gallery-row">
       <Row>
         <Col sm="4">
           <Card>
@@ -150,7 +151,9 @@ const Gallery = () => {
           </Card>
         </Col>
       </Row>
+      </div>
       <br></br>
+
       <Row>
         <Col sm="4">
           <Card>
@@ -258,6 +261,7 @@ const Gallery = () => {
           </Card>
         </Col>
         <Row />
+        <div class="gallery-row"></div>
         <br></br>
         <Row>
           <Col sm="4">

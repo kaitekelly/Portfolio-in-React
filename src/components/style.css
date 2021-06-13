@@ -16,8 +16,8 @@
 /* Global Styles */
 :root {
   /* --primary-color: #ff5a5f; */
-  --primary-color: #03012c;
-  --dark-color: #0b3954;
+  --primary-color: rgb(207, 212, 197);
+  --dark-color: rgb(23, 24, 54);
   --light-color: #bfd7ea;
   --danger-color: #c81d25;
   --success-color: #087e8b;
@@ -25,7 +25,7 @@
 }
 
 * {
-  font-family: 'Lato', 'sans-serif'
+  font-family: 'Montserrat', sans-serif;
 }
 
 #primary-color {
@@ -55,14 +55,14 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  font-size: 16pt;
+  /* font-size: 14pt; */
   align-items: center;
   /* padding: 0.7rem 2rem; */
   z-index: 1;
   width: 100%;
   /* background-color: rgb(207, 212, 197); */
   background-color: var(--primary-color);
-  color: var(--light-color);
+  color: var(--dark-color);
 }
 
 .navbar ul {
@@ -74,8 +74,8 @@
 }
 
 .navbar li a {
-  color: var(--light-color);
-
+  color: var(--dark-color);
+  font-size: 19pt;
 }
 
 .navbar a {
@@ -92,12 +92,10 @@
 
 #nav-name {
   background-color: var(--primary-color);
-
 }
 
 .link {
   color: var(--dark-color);
-  font-size: 24pt;
 }
 
 h1 {
@@ -110,7 +108,7 @@ h1 {
 .bio {
   text-align: left;
   padding-right: 10%;
-  padding-top: 15px;
+  padding-top: 5px;
   font-size: 16pt;
   word-wrap: normal;
   line-height: 1.6;
@@ -136,8 +134,8 @@ h1 {
     margin-right: 5%;
   }
 
-.row {
-
+.gallery-row {
+margin-bottom: 20px;
 }
 
 .card-title {
