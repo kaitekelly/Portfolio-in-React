@@ -7,7 +7,6 @@ import Home from "./components/pages/Home";
 import Footer from "./components/layout/Footer";
 import Gallery from "./components/pages/Gallery";
 import "../src/components/style.css";
-// import "./App.css";
 
 const App =() => {
   return (

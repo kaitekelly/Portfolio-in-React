@@ -1,8 +1,4 @@
 /* body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -13,6 +9,7 @@
   } */
 
   @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 /* Global Styles */
 :root {
   /* --primary-color: #ff5a5f; */
@@ -21,10 +18,11 @@
   --light-color: #bfd7ea;
   --danger-color: #c81d25;
   --success-color: #087e8b;
-  
+
 }
 
 * {
+  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -32,35 +30,22 @@
   background: var(--primary-color);
 }
 
-/* .background-color {
-  background-color: var(--dark-colorr);
-} */
 .container {
-  /* background-color: #282c34; */
-  /* color: white; */
-  /* color: #282c34; */
-  /* padding: 40px; */
   text-align: center;
-  /* margin-top: 25px; */
 }
 
 .themed-container {
   margin-top: 5%;
   margin-bottom: 5%;
-  /* background-color: var(--light-color); */
-  /* border-radius: 5px; */
-  /* box-shadow: 0 0 3px #282c34; */
+
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  /* font-size: 14pt; */
   align-items: center;
-  /* padding: 0.7rem 2rem; */
   z-index: 1;
   width: 100%;
-  /* background-color: rgb(207, 212, 197); */
   background-color: var(--primary-color);
   color: var(--dark-color);
 }
@@ -103,8 +88,6 @@ h1 {
 }
 
 /* About Page */
-
-
 .bio {
   text-align: left;
   padding-right: 10%;
@@ -122,10 +105,8 @@ h1 {
   text-align: left;
   padding-left: 6%;
   padding-top: 4%;
-  /* font-family: "Source Sans Pro", sans-serif; */
   margin: 0;
 }
-
 
 /* Projects page */
   .gallery-container{
@@ -151,8 +132,6 @@ margin-bottom: 20px;
   width: 125pt;
 }
 
-
-
 .background-color {
   background-color: var(--primary-colorr);
 }
@@ -161,8 +140,7 @@ margin-bottom: 20px;
   justify-content: center;
 }
 
-/* REsume page */
-
+/* Resume page */
 .resume-pdf {
   font-size: 20pt;
   border-radius: 3px;
@@ -170,7 +148,6 @@ margin-bottom: 20px;
 }
 
 /* Contact page */
-
 .contact {
   font-size: 18pt;
   padding: 20pt;
@@ -179,7 +156,6 @@ margin-bottom: 20px;
 #contact-me {
   padding: 10pt;
   margin-top: 20px;
-  /* margin-bottom: 25px; */
   font-size: 24pt;
   border-radius: 5px;
 }
@@ -187,8 +163,6 @@ margin-bottom: 20px;
 #githublogo {
   margin-top: 25px;
 }
-
-
 
 #email-small {
   margin-top: 0px;
@@ -201,7 +175,6 @@ margin-bottom: 20px;
 
 h3 {
   font-size: 24pt;
-  
 }
 
 li {
@@ -210,7 +183,6 @@ li {
 
 img {
   border-radius: 5px;
-
 }
 
 .linkedinlogo {
@@ -219,10 +191,7 @@ img {
 }
 
 .footer {
-  /* margin-top: 1rem; */
   padding: 0.5rem;
-  /* padding-top: 40pt; */
-  /* background-color: rgb(207, 212, 197); */
   background-color: var(--primary-color);
   position: fixed;
   bottom: 0;
@@ -230,48 +199,9 @@ img {
   width: 100%;
   text-align: center;
   font-size: 16pt;
-  /* color: rgb(23, 23, 56); */
-  /* color: var(--dark-color) */
 }
 
 .octocat {
   height: 30pt;
 }
 
-
-/* Mobile Styles */
-@media (max-width: 700px) {
-  .hide-sm {
-    display: none;
-  }
-
-  .grid-2,
-  .grid-3,
-  .grid-4 {
-    grid-template-columns: 1fr;
-  }
-
-  /* Text Styles */
-  .x-large {
-    font-size: 3rem;
-  }
-
-  .large {
-    font-size: 2rem;
-  }
-
-  .lead {
-    font-size: 1rem;
-  }
-
-  /* Navbar */
-  .navbar {
-    display: block;
-    text-align: center;
-  }
-
-  .navbar ul {
-    text-align: center;
-    justify-content: center;
-  }
-}
